@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="007ae70b-c7bd-4aa9-8d52-1422c519662c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/presentation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/vendor/fathom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/vendor/prettify-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/vendor/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/presentation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/vendor/fathom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/vendor/prettify-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/vendor/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/taig/calc.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/css/reveal.min.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/css/reveal.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/css/theme/default.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/css/theme/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/css/theme/sky.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/css/theme/sky.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/index.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/js/reveal.min.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/js/reveal.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/css/zenburn.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/css/zenburn.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.eot" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.svg" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.ttf" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.woff" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic_license" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic_license" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/js/classList.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/classList.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/js/head.min.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/head.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/js/html5shiv.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/html5shiv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/highlight/highlight.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/highlight/highlight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/example.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/example.md" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/example.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/markdown.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/markdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/showdown.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/showdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/multiplex/client.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/multiplex/client.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/multiplex/index.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/multiplex/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/multiplex/master.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/multiplex/master.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes-server/client.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/client.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes-server/index.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes-server/notes.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/notes.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes/notes.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes/notes.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes/notes.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes/notes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/postmessage/example.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/postmessage/example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/postmessage/postmessage.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/postmessage/postmessage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/print-pdf/print-pdf.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/print-pdf/print-pdf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/remotes/remotes.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/remotes/remotes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/search/search.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/search/search.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/zoom-js/zoom.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/zoom-js/zoom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="007ae70b-c7bd-4aa9-8d52-1422c519662c" name="Default" comment="" />
     <ignored path="tstone.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
