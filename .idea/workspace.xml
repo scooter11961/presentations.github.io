@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="007ae70b-c7bd-4aa9-8d52-1422c519662c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/presentation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/vendor/fathom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/vendor/prettify-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/blogfrog/orid/vendor/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/presentation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/vendor/fathom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/vendor/prettify-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/boulderjs/nativeoo/vendor/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taig/calc.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/css/reveal.min.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/css/reveal.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/css/theme/default.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/css/theme/default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/css/theme/sky.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/css/theme/sky.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/index.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/js/reveal.min.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/js/reveal.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/css/zenburn.css" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/css/zenburn.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.eot" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.svg" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.ttf" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic-webfont.woff" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/font/league_gothic_license" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/font/league_gothic_license" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/js/classList.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/classList.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/js/head.min.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/head.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/lib/js/html5shiv.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/html5shiv.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/highlight/highlight.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/highlight/highlight.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/example.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/example.md" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/example.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/markdown.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/markdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/markdown/showdown.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/markdown/showdown.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/multiplex/client.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/multiplex/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/multiplex/index.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/multiplex/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/multiplex/master.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/multiplex/master.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes-server/client.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/client.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes-server/index.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes-server/notes.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/notes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes/notes.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes/notes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/notes/notes.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes/notes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/postmessage/example.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/postmessage/example.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/postmessage/postmessage.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/postmessage/postmessage.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/print-pdf/print-pdf.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/print-pdf/print-pdf.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/remotes/remotes.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/remotes/remotes.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/search/search.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/search/search.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/css21-selectors/plugin/zoom-js/zoom.js" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/zoom-js/zoom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
+    <ignored path="tstone.github.com.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1928" />
+    <option name="y" value="-260" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tstone.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tstone.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tstone.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tstone.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tstone.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brown-bag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="howGtestssoftware" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1368629180952</created>
+      <updated>1368629180952</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1928" y="-260" width="1680" height="1024" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.249694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="57" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.52143687">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/css/theme/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/css/theme/sky.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/css/reveal.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/js/reveal.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/css/zenburn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.76666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/classList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/head.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/lib/js/html5shiv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes/notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.4843569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/brown-bag/howGtestssoftware/plugin/notes-server/notes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.4212328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
