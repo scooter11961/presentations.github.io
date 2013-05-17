@@ -98,160 +98,281 @@
 
 <div class="reveal">
 
-    <div class="slides">
+<div class="slides">
 
-        <section>
-            <h1 style="font-size: 90px;">Testing Techniques</h1>
-            <h4 style="font-weight: bold; color: steelblue;">How Google test[ed] Software</h4>
-            <img src="img\HowGTestsSoftwareBookCover2.png" height="475  " width="425">
+<section>
+    <h1 style="font-size: 90px;">Testing Techniques</h1>
+    <h4 style="font-weight: bold; color: steelblue;">How Google test[ed] Software</h4>
+    <img src="img\HowGTestsSoftwareBookCover2.png" height="475  " width="425">
 
-            <h3 style="margin-top: 35px;">Scott Hatch</h3>
-        </section>
+    <h3 style="margin-top: 35px;">Scott Hatch</h3>
+</section>
 
-        <section>
-            <h2>Does this model fit us?</h2>
+<section>
+    <h2>Does this model fit us?</h2>
 
-            <p>After reading HGTS, it became obvious to me that Google is a large enough company; with a complex enough
-                product line that one model does NOT fit all cases.
-            </p>
+    <p>After reading HGTS, it became obvious to me that Google is a large enough company; with a complex enough
+        product line that one model does NOT fit all cases.
+    </p>
 
-            <p>In general, the web product teams (like gMail, Google plus, gMaps, etc.) are similar to us, and those are
-                the
-                examples I drew comparisons with.
-                Others that are more different than similar included youTube (slight overlap), Chrome (slight overlap)
-                and
-                Android (OS/Apps side, but not hardware side)
-            </p>
-        </section>
+    <p>In general, the web product teams (like gMail, Google plus, gMaps, etc.) are similar to us, and those are
+        the
+        examples I drew comparisons with.
+        Others that are more different than similar included youTube (slight overlap), Chrome (slight overlap)
+        and
+        Android (OS/Apps side, but not hardware side)
+    </p>
+</section>
 
-        <section>
-            <h2>How Google Teams are organized:</h2>
-        </section>
+<section>
 
-        <section>
-            <ul>
-                <li>SWE (Software Engineers)</li>
-                <li>SET (Software Engineers in Test)</li>
-                <li>TE (Test Engineers)</li>
-                <li>very few designers</li>
-                <li>some Product Owners</li>
-                <li>NO Quality Assurance Team</li>
-            </ul>
-        </section>
+    <section>
+        <h2>How Google Teams are organized:</h2>
+        <ul>
+            <li>SWE (Software Engineers)</li>
+            <li>SET (Software Engineers in Test)</li>
+            <li>TE (Test Engineers)</li>
+            <li>Designers, Product Owners and User Experience Experts</li>
+            <li>There was no direct mention as to weather SWEs pair programmed</li>
+            <li>There was mentions of pull requests and code reviews</li>
+        </ul>
+    </section>
+
+    <section>
+        <ul>
+            <li>There is a Software Productivity Team (what replaced QA).
+            <li>There is a Engineering Productivity team</li>
+            <li>There are Software Engineering & Productivity managers and directors, and there is a hierarchy for
+                SWEs
+            </li>
+            </li>
+            <li>STEs, and TEs report to a Software Productivity hierarchy (not software engineering, or product
+                teams)
+            </li>
+        </ul>
+    </section>
+</section>
+
+<section>
+    <h2>How Google Teams are NOT organized:</h2>
+
+    <p>There is NOT a Quality Assurance team, or a Testing Team, or Testing Services because this created a
+        'over the wall, or safety net' environment. </p>
+
+    <p>Instead, each team (comprised primarily of SWEs, and a few STEs, and occasionally some TEs) own the
+        quality of their product.
+    </p>
+
+    <p>There was NO mention of Architects, QA, ScrumMasters, or Project Management, or PMO office, or Change Control</p>
+</section>
+
+<section>
+    <h2>Why does this work for them?</h2>
+    <ul>
+        <li>Googlers use their own products daily!</li>
+        <li>They are highly skilled</li>
+        <li>They have 20% time to reinvest in learning / contributing</li>
+        <li>There seems to be a lot of time spent on design documents?</li>
+    </ul>
+</section>
+
+<section>
+    <section>
+        <h2>SWE (Software Engineers)</h2>
+        <ul>
+            <li> Works in a test driven development model</li>
+            <li>Creates unit tests for code, javascript, etc.</li>
+            <li>Creates spec tests that may test with browsers</li>
+            <li>They may build mocks or fakes for unit tests to interact with</li>
+            <li>SWEs own the quality of the product they build, there is no 2nd team acting as a QA last check
+                safety net.
+            </li>
+            <li>SWEs fix the bugs that are found in their products</li>
+            <li>They submit ‘change sets’ of code</li>
+            <li>They perform code reviews</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Does MapQuest have SWE's ? </h2>
+
+        <h3 style="font-weight: bold; color: green;">Yes</h3>
+
+        <p>This maps very closely to our idea of Software Engineers. Basic responsibilities include feature
+            story interpretation, code architecture, functional code creation, product architecture, and health
+            monitoring.
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>SETs (Software Engineers in Test)</h2>
+        <ul>
+            <li>SETs work to make SWEs more efficient.</li>
+            <li>Setup Agile tools like build servers (Jenkins), deploy scripts (shell scripts, Capistrano scripts,
+                test frameworks (like rspec/capbybara/selenium) javascript test frameworks (jasmine)
+            </li>
+            <li> Contribute to building, reviewing, and extending unit tests</li>
+            <li> May build mocks and fakes for unit tests to interact with</li>
+            <li> May build custom tools when needed (java/ruby test code?)</li>
+            <li> May contribute to functional code occasionally</li>
+            <li> SETs have a skillset on par with the SWEs</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Does Mapquest have SET's ?</h2>
+
+        <h3 style="font-weight: bold; color: red;">No</h3>
+
+        <p>Not presently dedicated full time. We do have more technically oriented test engineers than some.
+            We do have Software Engineers that take the 'lead' on implementing 'best practices' and tools for the
+            benefit of the team, and contributing
+            to a better quality software development process.
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>TE (Test Engineers)</h2>
+        <ul>
+            <li>TEs are responsible for the overall width of testing and coverage</li>
+            <li> Contribute to automated tests</li>
+            <li>Perform risk analysis of features / products in order to guide the team in where to test, and how
+                much to test based on what is most important
+            </li>
+            <li>Perform organized, exploratory testing</li>
+            <li>TEs are a rare commodity, considered highly valuable and 'on loan' to teams for a while.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Does MapQuest have TE's ?</h2>
+
+        <h3 style="font-weight: bold; color: green;">Yes</h3>
+
+        <p>In fact a lot of our QA Engineers, and at time Software Engineers perform these type of tasks. </p>
+    </section>
+</section>
+
+<section>
+    <h2>Software process:</h2>
+    <ul>
+        <li>SETs help build testing frameworks and more tests that fit the needs of the product</li>
+        <li>TDD code is written</li>
+        <li>Code is completed in Change Sets, and submitted to source control</li>
+        <li>Some magic tool is used to analyze change sets, and determine what set of tests need to be run (across
+            multiple products) based on what has a dependency on the changed code
+        </li>
+        <li>SWEs run the identified, custom test suite to verify code change set does not introduce a regression</li>
+        <li>Upon verification of green tests, the change set is submitted to a build server</li>
+        <li>Further regression tests are run??</li>
+        <li>TEs review change sets, and perform targeted manual testing??</li>
+        <li>Code is released from HEAD.</li>
+    </ul>
+</section>
+
+<section>
+    <h1>Summary and Comments of the Chapters</h1>
+</section>
+
+<section>
+    <h2>Forward/intro:</h2>
+
+    <p>Developer unit tests are not enough, integration tests, system tests, UI tests were still needed.</p>
+
+    <p>Google originally had a team was called “Testing Services” and focused the majority of its energy on UI
+        validation and jumping into projects on an as-needed basis. It was later changed info “Engineering
+        Productivity”</p>
+</section>
+
+<section>
+    <section>
+        <h2>Chapter 1. Introduction to Google Software Testing:</h2>
+
+        <p>“Testing must not create friction that slows down innovation and development.“</p>
+
+        <p>My Comment: This means we need to question everything we do with a value proposition. Does it add value? And
+            if
+            so, for whom? The developer? Product owner? Customer? AOL? We need to be willing to accept that 80% fast is
+            often what is asked of us. Minimum Viable Product. Knowing we probably don’t have it right anyway, so let’s
+            plan
+            to iterate soon to make it better, and react as needed when we know more.</p>
+    </section>
+
+    <section>
+        <p>“If you are an engineer, you are a tester. If you are an engineer with the word test in your title, then you
+            are
+            an enabler of good testing for those other engineers who do not.”</p>
+
+        <p>My Comment: Later on, this book acknowledges a difference between software coders, and testers. Coders are
+            focused
+            on creating a solution, with minimum complexity and effort, so that they can do more of the same again
+            tomorrow.
+            A code writing “optimist”.</p>
+
+    </section>
+    <section>
+        <p>A tester is looking to find breakage in a product. They look for ways to demonstrate assumptions that are
+            lacking,
+            or an interface that is not clear to a user, or software that does not work as assumed it would in other
+            cases.
+            Testers looks for holes, gaps, etc. finding places where bugs exist. Testers take
+            this “pessimist” attitude and use it to help SWEs learn how to live in both worlds. The goal is NOT TO
+            PROVIDE
+            QUALITY ASSURANCE to them, but to help demonstrate problems in the app that need fixed (bugs). And to help
+            them
+            switch to this way of thinking when needed. This chapter further asserts: “If you are an engineer, you are a
+            tester”</p>
+    </section>
+
+    <section>
+        <p>“Although it is true that quality cannot be tested in, it is equally evident that without testing, it is
+            impossible to develop anything of quality.”</p>
+
+        <p>Comment: confirming that quality has to be thought be the code creators, and even the best code will have
+            assumptions, which often lead to bugs. Testing, and thinking through ways to break the code help uncover the
+            assumptions.
+        </p>
+    </section>
+
+</section>
 
 
-        <section>
-            <h2>Why does this work for them?</h2>
-            <ul>
-                <li>Googlers use their own products daily!</li>
-                <li>They are highly skilled</li>
-                <li>They have 20% time to reinvest in learning / contributing</li>
-            </ul>
-        </section>
+<!--last page-->
+<section>
+    <h2>Further Learning:</h2>
 
-        <section>
-            <h2>SWE (Software Engineers)</h2>
-            <ul>
-                <li> Works in a test driven development model</li>
-                <li>Creates unit tests for code, javascript, etc.</li>
-                <li>Creates spec tests that may test with browsers</li>
-                <li>They may build mocks or fakes for unit tests to interact with</li>
-                <li>SWEs own the quality of the product they build, there is no 2nd team acting as a QA last check
-                    safety net.
-                </li>
-                <li>SWEs fix the bugs that are found in their products</li>
-                <li>They submit ‘change sets’ of code</li>
-                <li>They perform code reviews</li>
-            </ul>
-        </section>
+    <h3>AOL Safari books</h3>
+    <ul>
+        <li style="font-size: 25px;">Login to: http://safari.aol.com</li>
+        <li style="font-size: 25px;">Then: http://techbus.safaribooksonline.com/9780132851572</li>
+    </ul>
+    <h4>Google Testing Blog:</h4>
+    <ul>
+        <li style="font-size: 25px;">http://googletesting.blogspot.com/</li>
+    </ul>
+    <h4>Why James Whittaker left Google</h4>
+    <ul>
+        <li style="font-size: 25px;">
+            http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx
+        </li>
+    </ul>
 
-        <section>
-            <h2>Does MapQuest have SWE's ? </h2>
+</section>
 
-            <h3 style="font-weight: bold; color: green;">Yes</h3>
-            <p>This maps very closely to our idea of Software Engineers. Basic responsibilities include feature
-                story interpretation, code architecture, functional code creation, product architecture, and health
-                monitoring.
-            </p>
-        </section>
+<section>
+    <h3>Thanks to:</h3>
+    <ul>
+        <li>reveal.js - this awesome presentation software</li>
+        <li>James Whittaker (& team) at Google for challenging the status quo</li>
+        <li>MapQuest - for always wanting to improve</li>
+    </ul>
+</section>
 
-        <section>
-            <h2>SET (Software Engineers in Test)</h2>
-            <ul>
-                <li>SETs work to make SWEs more efficient.
-                <li>Setup Agile tools like build servers (Jenkins), deploy scripts (shell scripts, Capistrano scripts,
-                    test frameworks (like rspec/capbybara/selenium) javascript test frameworks (jasmine)
-                </li>
-                <li>They also contribute to building, reviewing, and extending unit tests</li>
-                <li>They likely build mocks and fakes for unit tests to interact with</li>
-                <li>They may build custom tools when needed (java/ruby test code?)</li>
-                <li>They may contribute to functional code occasionally</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Does Mapquest have SET's ?</h2>
-
-            <h3 style="font-weight: bold; color: red;">No</h3>
-            <p>Not presently dedicated full time. We do have more technically oriented test engineers than some.
-                We do have Software Engineers that take the 'lead' on implementing 'best practices' and tools for the
-                benefit of the team, and contributing
-                to a better quality software development process.
-            </p>
-        </section>
-
-        <section>
-            <h2>TE (Test Engineers)</h2>
-            <ul>
-                <li>TEs are responsible for the overall width of testing and coverage</li>
-                <li> Contribute to automated tests</li>
-                <li>Perform risk analysis of features / products in order to guide the team in where to test, and how
-                    much to test based on what is most important
-                </li>
-                <li>Perform organized, exploratory testing</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Does MapQuest have TE's ?</h2>
-
-            <h3 style="font-weight: bold; color: green;">Yes</h3>
-            <p></p>
-
-
-        </section>
-        <!--last page-->
-        <section>
-            <h2>Further Learning:</h2>
-
-            <h3>AOL Safari books</h3>
-            <ul>
-                <li style="font-size: 25px;">Login to: http://safari.aol.com</li>
-                <li style="font-size: 25px;">Then: http://techbus.safaribooksonline.com/9780132851572</li>
-            </ul>
-            <h4>Google Testing Blog:</h4>
-            <ul>
-                <li style="font-size: 25px;">http://googletesting.blogspot.com/</li>
-            </ul>
-            <h4>Why James Whittaker left Google</h4>
-            <ul>
-                <li style="font-size: 25px;">
-                    http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx
-                </li>
-            </ul>
-
-        </section>
-
-        <section>
-            <h3>Thanks to:</h3>
-            <ul>
-                <li>reveal.js - this awesome presentation software</li>
-                <li>James Whittaker (& team) at Google for challenging the status quo</li>
-                <li>MapQuest - for always wanting to improve</li>
-            </ul>
-        </section>
-
-    </div>
+</div>
 
 </div>
 
