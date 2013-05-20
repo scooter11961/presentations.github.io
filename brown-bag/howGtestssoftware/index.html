@@ -109,23 +109,6 @@
 </section>
 
 <section>
-    <h2>Does this model fit us?</h2>
-
-    <p>After reading HGTS, it became obvious to me that Google is a large enough company; with a complex enough
-        product line that one model does NOT fit all cases.
-    </p>
-
-    <p>In general, the web product teams (like gMail, Google plus, gMaps, etc.) are similar to us, and those are
-        the
-        examples I drew comparisons with.
-        Others that are more different than similar included youTube (slight overlap), Chrome (slight overlap)
-        and
-        Android (OS/Apps side, but not hardware side)
-    </p>
-</section>
-
-<section>
-
     <section>
         <h2>How Google Teams are organized:</h2>
         <ul>
@@ -136,6 +119,8 @@
             <li>There was no direct mention as to weather SWEs pair programmed</li>
             <li>There was mentions of pull requests and code reviews</li>
         </ul>
+        <p>-more-</p>
+
     </section>
 
     <section>
@@ -180,17 +165,18 @@
     <section>
         <h2>SWE (Software Engineers)</h2>
         <ul>
-            <li> Works in a test driven development model</li>
-            <li>Creates unit tests for code, javascript, etc.</li>
-            <li>Creates spec tests that may test with browsers</li>
-            <li>They may build mocks or fakes for unit tests to interact with</li>
+            <li>Work in a test driven development model</li>
+            <li>Create unit tests for code, javascript, etc.</li>
+            <li>Create spec tests that may test with browsers</li>
+            <li>They build mocks or fakes when needed for unit tests to interact with</li>
             <li>SWEs own the quality of the product they build, there is no 2nd team acting as a QA last check
                 safety net.
             </li>
             <li>SWEs fix the bugs that are found in their products</li>
-            <li>They submit ‘change sets’ of code</li>
+            <li>They submit ‘Change Sets’ of code</li>
             <li>They perform code reviews</li>
         </ul>
+        <p>-more-</p>
     </section>
 
     <section>
@@ -198,7 +184,7 @@
 
         <h3 style="font-weight: bold; color: green;">Yes</h3>
 
-        <p>This maps very closely to our idea of Software Engineers. Basic responsibilities include feature
+        <p>This looks very close to our idea of Software Engineers. Basic responsibilities include feature
             story interpretation, code architecture, functional code creation, product architecture, and health
             monitoring.
         </p>
@@ -219,17 +205,17 @@
             <li> May contribute to functional code occasionally</li>
             <li> SETs have a skillset on par with the SWEs</li>
         </ul>
+        <p>-more-</p>
     </section>
 
     <section>
-        <h2>Does Mapquest have SET's ?</h2>
+        <h2>Does Mapquest have SETs ?</h2>
 
         <h3 style="font-weight: bold; color: red;">No</h3>
 
-        <p>Not presently dedicated full time. We do have more technically oriented test engineers than some.
+        <p>Not presently dedicated full time. We do have some technically oriented test engineers.
             We do have Software Engineers that take the 'lead' on implementing 'best practices' and tools for the
-            benefit of the team, and contributing
-            to a better quality software development process.
+            benefit of the team, and contributing to a better quality software development process.
         </p>
     </section>
 </section>
@@ -239,13 +225,15 @@
         <h2>TE (Test Engineers)</h2>
         <ul>
             <li>TEs are responsible for the overall width of testing and coverage</li>
-            <li> Contribute to automated tests</li>
+            <li>Contribute to automated tests</li>
             <li>Perform risk analysis of features / products in order to guide the team in where to test, and how
                 much to test based on what is most important
             </li>
             <li>Perform organized, exploratory testing</li>
-            <li>TEs are a rare commodity, considered highly valuable and 'on loan' to teams for a while.</li>
+            <li>Try to represent the viewpoint, and needs of the customer</li>
+            <li>TEs are a rare commodity, considered highly valuable and 'on loan' to teams for a while</li>
         </ul>
+        <p>-more-</p>
     </section>
 
     <section>
@@ -253,94 +241,347 @@
 
         <h3 style="font-weight: bold; color: green;">Yes</h3>
 
-        <p>In fact a lot of our QA Engineers, and at time Software Engineers perform these type of tasks. </p>
+        <p>In fact a lot of our QA Engineers, and at times Software Engineers perform these type of tasks. Often times
+            though,
+            a TE is spread over multiple teams. This can dilute their ability to make an impact.</p>
     </section>
 </section>
 
 <section>
-    <h2>Software process:</h2>
+    <h2>Does the Google Testing model fit our business?</h2>
+
+    <p>After reading HGTS, it became clear to me that Google is a large company with a diverse
+        product line that cannot utilize one model of testing to fit all products. They choose to let teams decide what
+        testing techniques fit their needs.
+    </p>
+
+    <p>For example, the web product teams (like gMail, Google+, gMaps, etc.) are similar to us, and those are
+        the examples the comparisons are drawn from.</p>
+</section>
+
+
+<section>
+
+    <section>
+        <h2>Let's look more at their Software process:</h2>
+        <ul>
+            <li>SETs help build testing frameworks and more tests that fit the needs of the product</li>
+            <li>TDD code is written</li>
+            <li>Code is completed in Change Sets, and submitted to source control</li>
+            <li>Some magic tool is used to analyze Change Sets, and determine what set of tests need to be run (across
+                multiple products) based on what has a dependency on the changed code
+            </li>
+        </ul>
+        <p>-more-</p>
+    </section>
+    <section>
+        <ul>
+            <li>SWEs run the identified custom test suite to verify code and that the Change Set does not introduce a
+                regression
+            </li>
+            <li>Upon verification of green tests, the Change Set is submitted to a build server</li>
+            <li>Further regression tests are run??</li>
+            <li>TEs review Change Sets, and perform targeted manual testing??</li>
+            <li>Code is released from HEAD</li>
+        </ul>
+    </section>
+</section>
+
+<section>
+    <h2>Let's look more at their Release process:</h2>
     <ul>
-        <li>SETs help build testing frameworks and more tests that fit the needs of the product</li>
-        <li>TDD code is written</li>
-        <li>Code is completed in Change Sets, and submitted to source control</li>
-        <li>Some magic tool is used to analyze change sets, and determine what set of tests need to be run (across
-            multiple products) based on what has a dependency on the changed code
+
+        <li>Products proceed through canary, development, testing, beta, and release channels before making it to
+            users
         </li>
-        <li>SWEs run the identified, custom test suite to verify code change set does not introduce a regression</li>
-        <li>Upon verification of green tests, the change set is submitted to a build server</li>
-        <li>Further regression tests are run??</li>
-        <li>TEs review change sets, and perform targeted manual testing??</li>
-        <li>Code is released from HEAD.</li>
+
+        <li>
+            Canary or Development Channel: These are generally weekly builds that have sustained successful usage and
+            passed some set of tests
+        </li>
+
+        <li>
+            Test Channel: This is essentially the best build of the month in terms of the one that passes the most
+            sustained testing and the one engineers trust the most for their work
+        </li>
+
+        <li>Beta Channel or Release Channel: These builds are stable Test Channel builds that have survived internal
+            usage and pass every quality bar the team sets
+        </li>
     </ul>
 </section>
 
 <section>
-    <h1>Summary and Comments of the Chapters</h1>
+
+    <section>
+        <h2>Let's look more at their Test Levels:</h2>
+
+
+        <p>Instead of distinguishing between code, integration, and system testing, Google uses the language of small,
+            medium, and large tests (not to be confused with t-shirt sizing language of estimation among the agile
+            community), emphasizing scope over form. Small tests cover small amounts of code and so on.
+        </p>
+
+        <p>Each of the three engineering roles can execute any of these types of tests and they can be performed as
+            automated or manual tests. Practically speaking, the smaller the test, the more likely it is to be
+            automated.</p>
+
+        <p>The mix between automated and manual testing definitely favors the former for all three sizes of tests.
+            Having said that, it is important to note that Google performs a great deal of manual testing, both scripted
+            and exploratory, but even this testing is done under the watchful eye of automation.</p>
+
+        <p>-more-</p>
+    </section>
+
+    <section>
+
+        <p>Small tests are of short duration, usually running in seconds or less. They are most likely written by a SWE,
+            less often by an SET, and hardly ever by TEs. Small tests generally require mocks and faked environments to
+            run.
+            TEs rarely write small tests but might run them when they are trying to diagnose a particular failure. The
+            question a small test attempts to answer is, “Does this code do what it is supposed to do?”
+        </p>
+
+        <p>Later in the development cycle, TEs can execute medium tests either manually (in the event the test is
+            difficult or prohibitively expensive to automate) or with automation. The question a medium test attempts to
+            answer is, “Does a set of near neighbor functions interoperate with each other the way they are supposed
+            to?” Medium tests cover multiple and interacting units of code in a faked or real environment.</p>
+
+        <p>-more-</p>
+    </section>
+
+    <section>
+        <ul>
+
+            <li>Large tests cover three or more (usually more) features and represent real user scenarios, use real user
+                data sources (not faked resources), and can take hours or even longer to run.
+            </li>
+
+            <li>There is some concern with overall integration of the features, but large tests tend to be more
+                results-driven, checking that the software satisfies user needs. All three roles are involved in writing
+                large tests and everything from automation to exploratory testing can be the vehicle to accomplish them.
+                The
+                question a large test attempts to answer is, “Does the product operate the way a user would expect and
+                produce the desired results?”
+            </li>
+
+            <li>The question a large test attempts to answer is, “Does the product operate the way a user would expect
+                and
+                produce the desired results?” End-to-end scenarios that operate on the complete product or service are
+                large
+                tests.
+            </li>
+        </ul>
+    </section>
+</section>
+
+
+<section>
+    <h2>Let's summarise and comment on the book Chapter by Chapter</h2>
 </section>
 
 <section>
     <h2>Forward/intro:</h2>
 
-    <p>Developer unit tests are not enough, integration tests, system tests, UI tests were still needed.</p>
+    <p style="font-style:italic; color: #4682b4;">"Developer unit tests are not enough, integration tests, system
+        tests, UI tests were still needed."</p>
 
-    <p>Google originally had a team was called “Testing Services” and focused the majority of its energy on UI
-        validation and jumping into projects on an as-needed basis. It was later changed info “Engineering
-        Productivity”</p>
+    <p><span style="color: #27b48b;">My thoughts: </span>Google originally had a team called “Testing Services”
+        and focused the majority of its energy on UI
+        validation and jumping into projects on an as-needed basis. They felt they could do better. It was later
+        changed into “Engineering
+        Productivity", and completely reversed their approach.</p>
 </section>
 
 <section>
     <section>
         <h2>Chapter 1. Introduction to Google Software Testing:</h2>
 
-        <p style="font-style:italic; color: #4682b4;">“Testing must not create friction that slows down innovation and
+        <p style="font-style:italic; color: #4682b4;">“Testing must not create friction that slows down innovation
+            and
             development.“</p>
 
-        <p><span style="color: #27b48b;">My thoughts:</span> We need to question everything we do
+        <p><span style="color: #27b48b;">My thoughts: </span>We need to question everything we do
             with a value proposition. Does it add value? And
-            if so, for whom? The developer? Product owner? Customer? AOL? We need to be willing to accept that 80% fast
+            if so, for whom? The developer? Product owner? Customer? AOL? We need to be willing to accept that 80%
+            fast
             is
-            often what is asked of us. Minimum Viable Product. Knowing we probably don’t have it right anyway, so let’s
+            often what is asked of us. Minimum Viable Product. Knowing we probably don’t have it right anyway, so
+            let’s
             plan
             to iterate soon to make it better, and react as needed when we know more.</p>
+
+        <p>-more-</p>
     </section>
 
     <section>
-        <p style="font-style:italic; color: #4682b4;">“If you are an engineer, you are a tester. If you are an engineer
+        <p style="font-style:italic; color: #4682b4;">“If you are an engineer, you are a tester. If you are an
+            engineer
             with the word test in your title, then you
             are an enabler of good testing for those other engineers who do not.”</p>
 
-        <p><span style="color: #27b48b;">My thoughts:</span> Later on, this book acknowledges a
+        <p><span style="color: #27b48b;">My thoughts: </span>Later on, this book details the
             difference between software coders, and testers. Coders are
             focused
             on creating a solution, with minimum complexity and effort, so that they can do more of the same again
             tomorrow.
-            A code writing “optimist”.</p>
+            They are code writing optimists.</p>
+
+        <p>-more-</p>
 
     </section>
-    <section>
-        <p style="font-style:italic; color: #4682b4;">A tester is looking to find breakage in a product. They look for
-            ways to demonstrate assumptions that are
-            lacking, or an interface that is not clear to a user, or software that does not work as assumed it would in
-            other cases.</p>
 
-        <p><span style="color: #27b48b;">My thoughts:</span> Testers looks for holes, gaps, etc. finding places where
-            bugs exist. Testers take this “pessimist” attitude
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"A tester is looking to find breakage in a product. They look
+            for
+            ways to demonstrate assumptions that are
+            lacking, or an interface that is not clear to a user, or software that does not work as assumed it would
+            in
+            other cases."</p>
+
+        <p><span style="color: #27b48b;">My thoughts: </span>Testers looks for holes, gaps, etc. finding places
+            where
+            bugs exist. Testers take this pessimist attitude
             and use it to help SWEs learn how to live in both worlds. The goal is <span style="color: #ffa65b;">NOT TO
             PROVIDE QUALITY ASSURANCE</span> to them, but to help demonstrate problems in the app that need fixed
             (bugs). And
             to help them switch to this way of thinking when needed. This chapter further asserts: “If you are an
             engineer, you are a tester”</p>
+
+        <p>-more-</p>
+
     </section>
 
     <section>
-        <p>“Although it is true that quality cannot be tested in, it is equally evident that without testing, it is
+        <p style="font-style:italic; color: #4682b4;">"Although it is true that quality cannot be tested in, it is
+            equally evident that without testing, it is
             impossible to develop anything of quality.”</p>
 
-        <p>Comment: confirming that quality has to be thought be the code creators, and even the best code will have
-            assumptions, which often lead to bugs. Testing, and thinking through ways to break the code help uncover the
+        <p><span style="color: #27b48b;">My thoughts:</span> Confirming that quality has to be thought by the code
+            creators, and even then, the best code will have
+            assumptions, which can lead to bugs. Testing, and thinking through ways to break the code help uncover the
             assumptions.
         </p>
+
+        <p>-more-</p>
     </section>
+
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">“We’ve not only prevented a lot of customer issues, we have
+            greatly reduced the number of dedicated testers necessary to ensure the absence of recall-class bugs.“
+        </p>
+
+        <p><span style="color: #27b48b;">My thoughts: </span>I find it interesting that Google sets the bar somewhat
+            low.
+            Are they only concerned by “recall-class bugs” ? Is it acceptable to allow smaller bugs to sneak through
+            because our stakeholders can tolerate 80% right? Do we expect the agile culture of reacting and fixing
+            quickly thereafter to be good enough?
+
+        <p>
+
+        <p>If this is the new MapQuest culture, it needs to be demonstrated with patience from Management, and not
+            immediate demands for hotfixes (outside of the two releases per week), or feedback as to “Why did we miss
+            this?”.
+
+        <p>We can’t have it both ways, at least not in the beginning. Also this needs to accept that testers are scarce,
+            and attempts to find other ways to meet quality.
+        </p>
+
+        <p>-more-</p>
+
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">“Test exists in a separate and horizontal (across the product FAs)
+            Focus Area called Engineering Productivity. Testers are essentially on loan to the product teams and are
+            free to raise quality concerns and ask questions about functional areas that are missing tests or that
+            exhibit unacceptable bug rates. Because we don’t report to the product teams, we can’t simply be told to get
+            with the program.”
+        </p>
+
+        <p><span style="color: #27b48b;">My thoughts: </span>This is the secret to the whole program in my opinion. This
+            sums up the value. SWEs own their own quality, SET and TEs are “quality experts” who add value by enabling
+            more testing of code as well as product features, and are assigned to the teams who are in most need. This
+            implies that some teams may need NO testers, or infrequent help? This also helps maintain a checks &
+            balance dynamic.
+        </p>
+
+        <p>-more-</p>
+
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">“If a development team wants us to take any shortcuts related to
+            testing, these must be negotiated in advance and we can always decide to say no.“
+        </p>
+
+        <p><span style="color: #27b48b;">My thoughts: </span>The service provided by Engineering productivity is not a
+            “rubber stamp of approval” especially if the tester does not agree, or feels that they are being
+            marginalized. Although testing should not add friction, it also should not be shortcut. IMO, this is a risk
+            based decision. If the team decides that minimal testing is acceptable for a specific feature, then that
+            view should be shared by the tester. Examples are Performance and Load testing, or minimal security testing.
+        </p>
+
+        <p>-more-</p>
+
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">“A product team cannot arbitrarily lower the technical bar for
+            testing talent or hire more testers than they need simply to dump menial work on them. Menial work around
+            any specific feature is the job of the developer who owns the feature and it cannot be pawned off on some
+            hapless tester. Testers are assigned by Engineering Productivity leads who act strategically based on the
+            priority, complexity, and needs of the product team in comparison to other product teams.”
+        </p>
+
+
+        <p><span style="color: #27b48b;">My thoughts: </span>With a ratio of 6 to 1 (devs to QA now) it is
+            obvious to me that we can’t expect the tester to do everything. Even if the team did did have the resources
+            to use many manual testers, this is short sided, because it is not repeatable like automated testing is.
+            Good point that the menial work is the responsibility of the engineer, and the tests written to cover it.
+            Interesting how testers are assigned based on the Engineering Productivity leads, not a defacto resource on
+            the team.
+        </p>
+
+        <p>-more-</p>
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">“The on-loan status of testers also facilitates movement of SETs
+            and TEs from project to project, which not only keeps them fresh and engaged, but also ensures that good
+            ideas move rapidly around the company” “It is generally accepted that 18 months on a product is enough for a
+            tester and that after that time, he or she can (but doesn’t have to) leave without repercussion to another
+            team” “One can imagine the downside of losing such expertise, but this is balanced by a company full of
+            generalist testers with a wide variety of product and technology familiarity”
+        </p>
+
+        <p><span style="color: #27b48b;">My thoughts: </span>This sounds like a good idea, but with our limited number
+            of projects, is this possible? We would need all the testers to consider changing it up. Maybe we could use
+            a bidding system? Maybe by identifying more as SETs and
+            TEs we can double up on some projects, and leave others to be independent on occasion? Maybe we review every
+            12 mo. Instead of 18 mo?
+        </p>
+
+
+    </section>
+</section>
+
+<section>
+    <h2>Chapter 2. The Software Engineer in Test</h2>
+
+</section>
+
+<section>
+    <h2>Chapter 3. The Test Engineer</h2>
+</section>
+
+<section>
+    <h2>Chapter 4. The Test Engineering Manager</h2>
+</section>
+
+<section>
+    <h2>Chapter 5. Improving How Google Tests Software</h2>
 </section>
 
 <section>
@@ -350,16 +591,22 @@
             <li>It is okay for a team to own quality by themselves</li>
             <li>Because: We will never break the 'safety net' mentality without that</li>
             <li>Management is willing to prioritize 'Faster to Market' over other concerns</li>
-            <li>Because: We can get the team to own quality, thus motivating them to write their own automated tests,
+            <li>Because: We can get the team to own quality, thus motivating them to write their own automated
+                tests,
                 knowing that occasionally hey will release a bug, but they can find and fix it in a day or two
             </li>
+        </ul>
+        <p>-more-</p>
     </section>
     <section>
-        <li>Testers (SETs and TEs) become a scarce, valuable, and sought after resource. There are assigned as a on-loan
+        <li>Testers (SETs and TEs) become a scarce, valuable, and sought after resource. There are assigned as a
+            on-loan
             status, not a entitlement to the team.
         </li>
-        <li>Quality tracking of a teams release health (cost to perform a release, frequency of releases, Occurrences of
-            Severity 1 bugs, frequency of production rollbacks) become the front line indicator of how well a team is
+        <li>Quality tracking of a teams release health (cost to perform a release, frequency of releases,
+            Occurrences of
+            Severity 1 bugs, frequency of production rollbacks) become the front line indicator of how well a team
+            is
             performing
         </li>
         <li>Implement a 'Test Certified Level' program to measure/ incentivize teams to improve their quality</li>
@@ -369,6 +616,27 @@
         </ul>
     </section>
 </section>
+
+<section>
+    <section>
+
+        <h2>Why did I title this presentation "How Google test[ed] software?</h2>
+    </section>
+    <section>
+        <p>Because the Author, and Architect has left Google (for Microsoft actually!)</p>
+
+        <p> In his blog, James Whittaker
+            mentions that Google is not the place it once was.
+            The days of Engineers implementing great ideas has been replaced with one goal; beat Facebook with Google+.
+            This, in his opinion is way to much of a corporate mandate, and has
+            taken all the 'fun' out of how things used to be.
+        </p>
+
+        <p>Does this mean that this process does not live on?</p>
+    </section>
+
+</section>
+
 
 <!--last page-->
 <section>
