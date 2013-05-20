@@ -124,7 +124,7 @@
 </section>
 
 <section>
-    <h2>Part 1 - Comparison and Summary</h2>
+    <h2 style="font-weight: bold; color: steelblue;">Part 1 - Comparison and Summary</h2>
 </section>
 
 <section>
@@ -178,6 +178,9 @@
         <li>They are highly skilled</li>
         <li>They have 20% time to reinvest in learning / contributing</li>
         <li>There seems to be a lot of time spent on design documents?</li>
+        <li>At Google, it is often said that “scarcity brings clarity” and this is nowhere more apparent than in the
+            testing world
+        </li>
     </ul>
 </section>
 
@@ -525,7 +528,7 @@
                 <li>Classify your tests as Small, Medium, and Large</li>
                 <li>Identify nondeterministic tests</li>
                 <li>Create a smoke test suite</li>
-           </ul>
+            </ul>
             <ul><span style="font-size: 20px; color: #77ffb4;"> Level 2</span>
                 <li>No releases with red tests</li>
                 <li>Require a smoke test suite to pass before a submit</li>
@@ -567,7 +570,7 @@
 
 
 <section>
-    <h2>Part 2 - Quotes and comments from the book:</h2>
+    <h2 style="font-weight: bold; color: steelblue;">Part 2 - Quotes and comments from the book:</h2>
 </section>
 
 <section>
@@ -757,12 +760,11 @@
     </section>
 </section>
 
-<section>
-    <h2>Chapter 2. The Software Engineer in Test</h2>
-</section>
 
 <section>
     <section>
+        <h2>Chapter 2. The Software Engineer in Test</h2>
+
         <p><span style="color: #27b48b;">Question: </span>Why have different engineering roles?
         </p>
 
@@ -788,8 +790,19 @@
             <li>Run all required static analysis tools that check for style guide compliance and a suite of common
                 problems
             </li>
+        </ul>
+        <p style="color: #595876;">-more-</p>
+    </section>
+
+    <section>
+        <ul>
             <li>SETs are Software Engineers in Test. First and foremost, SETs are software engineers and the role is
                 touted as a 100 percent coding role in our recruiting literature and internal job promotion ladders
+            </li>
+
+            <li>It creates an equal footing between feature developers and test developers that is productive and lends
+                credibility to all types of testing, including manual and exploratory testing that occurs later in the
+                process and is performed by a different set of engineers
             </li>
         </ul>
         <p style="color: #595876;">-more-</p>
@@ -797,14 +810,11 @@
 
     <section>
         <ul>
-            <li>It creates an equal footing between feature developers and test developers that is productive and lends
-                credibility to all types of testing, including manual and exploratory testing that occurs later in the
-                process and is performed by a different set of engineers
-            </li>
             <li>A SET’s time is limited and spread thinly and it is a good idea to create a plan for automating testing
                 of the system as early as possible and to be practical about it. Designs that seek to automate
                 everything end-to-end all in one master test suite are generally a mistake
             </li>
+
             <li>By then, it’s often too late to make design changes in the product, so whatever you learn in testing at
                 that point is moot. Time that the SET could have invested in improving quality was instead spent on
                 maintaining a brittle end-to-end test suite.
@@ -814,10 +824,13 @@
     </section>
 
     <section>
-        <p>The Google codebase receives over 20 changes per minute and 50 percent of the files change every month! Each
+        <li>The Google codebase receives over 20 changes per minute and 50 percent of the files change every month!
+            Each
             product is developed and released from “head” relying on automated tests verifying the product behavior.
-            Release frequency varies from multiple times per day to once every few weeks, depending on the product team
-        </p>
+            Release frequency varies from multiple times per day to once every few weeks, depending on the product
+            team
+        </li>
+        </ul>
 
     </section>
 
@@ -825,11 +838,98 @@
 
 
 <section>
-    <h2>Chapter 3. The Test Engineer</h2>
-</section>
+    <section>
+        <h2>Chapter 3. The Test Engineer</h2>
 
-<section>
-    <p>As such, most TEs get involved in some of this lower-level work where another set of eyes and more engineering expertise is needed. It’s a matter of risk: TEs find and contribute to the riskiest areas of the software in whatever manner makes the most sense for that particular product.</p>
+        <p>Most TEs get involved in some of this lower-level work where another set of eyes and more engineering
+            expertise is needed. It’s a matter of risk: TEs find and contribute to the riskiest areas of the software in
+            whatever manner makes the most sense for that particular product.</p>
+
+        <p>Some TEs spend much of their time programming, but with more of a focus on medium and large tests (such as
+            end-to-end user scenarios) rather than small tests.</p>
+
+        <p style="color: #595876;">-more-</p>
+    </section>
+    <section>
+        <ul>General set of practices we prescribe for TEs:
+            <li>Test planning and risk analysis</li>
+            <li>Review specs, designs, code, and existing tests</li>
+            <li>Exploratory testing</li>
+            <li>User scenarios</li>
+            <li>Test case creation and execution</li>
+            <li>Crowd sourcing, Usage metrics, User feedback</li>
+        </ul>
+        <p style="color: #595876;">-more-</p>
+    </section>
+
+    <section>
+        <p> Tester Engineers deal with documents and artifacts of a far more temporal nature. In the early
+            phases of a project, testers write test plans; later, they create and execute test cases and create bug
+            reports. Still, later they write coverage reports and collect data about user satisfaction and software
+            quality.
+        </p>
+
+        <p> The TE is a facilitator of risk mitigation. A TE might decide to perform tests in house on some of
+            the riskier areas and might request regression tests to be added by SWEs and SETs. Other tools at the TE’s
+            disposal include manual and exploratory testing and the use of dogfood users, beta users, and crowd
+            sourcing.
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <p> User stories describe real-world or targeted user paths through the application under test. They describe
+            user motivation and perspective and ignore product implementation and design details.
+        </p>
+
+        <p>
+            They should use fresh user accounts when necessary and at Google, we often create any number of test user
+            accounts that represent the users we describe in our stories. Also, use “old” accounts full of state.
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <p>Perhaps due to the quality-focused engineering practices at Google, regression runs often show less than a 5
+            percent failure rate. Importantly, this work is also mind-numbing to our TEs, who we interview for being
+            highly curious, intelligent, and creative—we want to free them up to do the smarter testing that we hired
+            them for: intelligent exploratory testing, risk analysis, and thinking about the user.
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <p>A significant amount of SET and TE time is spent developing large, end-to-end regression test case
+            automation. These tests are important because they make sure the product works for the end user with all
+            parts working together. The vast majority of these are written in Java using Selenium to drive the browsers
+            and hold the test case logic.
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+
+        <p style="font-style:italic; color: #4682b4;">“I really try to sink myself into the full user experience. The
+            way you look at a product totally changes once you see your own actual data in it.“
+        </p>
+
+        <p><span style="color: #27b48b;">My thoughts: </span>TThis is so true. I see many hypothetical test cases by
+            people at MQ, and if they would just use their own real
+            data, they would see the problems as real also.
+        </p>
+
+
+    </section>
+
+
 </section>
 
 <section>
