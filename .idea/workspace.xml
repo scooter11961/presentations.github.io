@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="007ae70b-c7bd-4aa9-8d52-1422c519662c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brown-bag/howGtestssoftware/index.html" afterPath="$PROJECT_DIR$/brown-bag/howGtestssoftware/index.html" />
-    </list>
+    <list default="true" id="007ae70b-c7bd-4aa9-8d52-1422c519662c" name="Default" comment="" />
     <ignored path="tstone.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
