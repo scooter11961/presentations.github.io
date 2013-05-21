@@ -926,18 +926,264 @@
             data, they would see the problems as real also.
         </p>
 
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <ul> TEs are experts at tools that help automate maual testing, such as -
+            <li> Google bite-project Record Playback Framework</li>
+            <li>Selenium Webdriver</li>
+            <li>GTA - Google Test Analytics. A risk based feature matrix tool.</li>
+
+        </ul>
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <ol>Basic outline of the TEs testing workflow:
+            <li>Test planning with GTA tool</li>
+            <li>Test Coverage from tools</li>
+            <li>Bug evaluation</li>
+            <li>Exploratory testing</li>
+            <li>Bug filing</li>
+            <li>Triage and debugging</li>
+            <li>Deploying the new version</li>
+        </ol>
+        <p>And then return to step 1...</p>
+
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">“Watch out for maintenance and troubleshooting costs of your tests
+            down the road Observe the 70-20-10 rule: 70
+            percent small unit tests that verify the behavior of a single class or function, 20 percent medium tests
+            that validate the integration of one or more application modules, and 10 percent large tests (commonly
+            referred to as “system tests” and “end-to-end” tests) that operate on a high level and verify the
+            application as a whole is working"
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>Chapter 4. The TEM - Test Engineering Manager</h2>
+
+        <p style="font-style:italic; color: #4682b4;">“Scarcity of resources bring clarity to execution and it creates a
+            strong sense of ownership by those on the project"</p>
+
+        <p style="font-style:italic; color: #4682b4;">“Because you can’t simply throw people at a
+            problem, the tool chain gets streamlined. Automation that serves no real purpose gets deprecated. Tests that
+            find no regressions aren’t written. Developers who demand certain types of activity from testers have to
+            participate in it. There are no make-work tasks. There is no busy work in an attempt to add value where you
+            are not needed."</p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+
+        <p style="font-style:italic; color: #4682b4;">"Project mobility is a hallmark of being a Google engineer. A
+            general rule of thumb is that a Googler is free to change projects every 18 months, give or take a quarter."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"The general rule in the case where a TEM can choose to take a
+            project is simply to avoid toxic projects. Teams that are unwilling to be equal partners in quality should
+            be left on their own to do their own testing. . Teams unwilling to commit to writing small tests and getting
+            good unit-level coverage should be left to dig their graves in peace."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"It’s important to note that we are tasking a test team only with
+            <span style="color: #ffa65b;">impact</span>. We are specifically not asking the TEM and her team to ensure
+            that the product is <span style="color: #ffa65b;">high quality</span>."
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+
+        <p style="font-style:italic; color: #4682b4;">"Make sure the person writing the feature is the person
+            responsible for ensuring the tests for that feature get executed. Tests that get ignored become a liability.
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"20 percent of the use cases account for 80 percent of the usage
+            (give or take!). Automate the 20 percent and don’t bother with the rest. Leave them for the manual test
+            passes."
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"Collaboration with development is crucial. If you don’t have it,
+            you are nothing more than damage control and that is not a good place to be."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"By writing automated tests, SETs and TEs often don’t realize they
+            signed up to maintain them. SETs need to always remember that testing is the job of the developer and they
+            should concentrate on getting testing into the workflow of the developer."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"We write tools to support this so that it is the developers who
+            maintain the tests as they maintain the code. SETs can then focus on making the tests run faster and produce
+            better diagnostics."
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
 
     </section>
 
 
-</section>
+    <section>
 
-<section>
-    <h2>Chapter 4. The Test Engineering Manager</h2>
+        <p style="font-style:italic; color: #4682b4;">"After the team is assembled, I give them simple marching orders:
+            add value! Preferably, add value in a repeatable way. From dev to product management, testing must be seen
+            as an enabler. Anything less and you are in the way."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"Everything we did had to have a purpose. We questioned
+            everything. Every test case, every piece of automation, and much of what we were doing didn’t stand this
+            kind of scrutiny. If the automation didn’t provide clear value, we abandoned it. Everything was value-driven
+            and the organization was there."
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+    </section>
+    <section>
+
+        <p style="font-style:italic; color: #4682b4;">"Hung: I’ve learned to be skeptical of automation. Testers can get
+            so passionate about some grand vision of automation for a product and spend months creating it only to have
+            the product or platform change and negate everything they did. There is no greater waste of resources than
+            writing automation that doesn’t stand the test of time. In my mind, it needs to be written quickly, executed
+            quickly, and solve a very specific problem. If I don’t understand the purpose of an automated test
+            immediately, then it is too complicated. Make it simple, contain its scope and above all, make sure it adds
+            value."
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"Hung: None of my testers specialize. Specifically, everyone does
+            manual testing and I mean everyone. Exploratory testing is the best way of digging into the product and
+            learning it well. The last thing I want is an SET to be a framework writer. I want them to be more involved
+            with the product and know how to use it. Every tester must empathize with the user. They must be expert
+            users and know the ins and outs of the whole product."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"We have daily coordination meetings to identify things that are
+            important to test and ensure someone is covering them. Manual testing, to me, is about focus and
+            coordination."
+
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"Insisting on unit tests won’t make those unit tests valuable.
+            Nothing a spec writer or a unit test can do (besides finding an obvious regression bug) will help us find a
+            problem that a real user will encounter. This is my world, a tester’s world."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"Joel: I try to be practical about releases. I have software
+            to ship and there are some things that have to give to
+            make that happen. There are always tradeoffs. We may be an agile team, but we still implement a last-mile
+            validation."</p>
+
+        <p style="font-style:italic; color: #4682b4;">"Joel: Until I have all this totally figured out, I am going to
+            favor a hybrid approach, a mix of developer testing, scripted testing, exploratory testing, risk-based
+            testing, and functional automation."</p>
+
+        <p style="color: #595876;">-more-</p>
+    </section>
+
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"Joel: Test is the last frontier of engineering. We’ve solved a
+            lot of the problems of how to develop software effectively, but we’ve still have a green field of
+            opportunity to attack the really meaty problems of testing a product, from how to organize all the technical
+            work that must get done to how we automate effectively, and responsively, and with agility without being too
+            reactive."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"At times, we would realize something wasn’t possible at the
+            component level and work with them to solve it at the unit level. This collaboration transformed the dynamic
+            in the team so that the entire project team (dev + test) owned quality at the component level with test
+            engineering focusing its time on improving process, framework, tooling, and integration testing."
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"Once you’ve identified what’s critical for the specific product
+            you’re testing, then focus the majority of your energy on validating that the core capabilities of the
+            system satisfy those attributes. Worry about the easy stuff (UI tweaks and bells and whistles) only after
+            the important stuff is right."</p>
+
+        <p style="font-style:italic; color: #4682b4;">"The key is still to automate that process as much as possible.
+            Have a machine do 90 percent of the work and apply human intelligence only to the last 10 percent (“the last
+            mile” we call it) of the validation cycle."
+        </p>
+
+        <p style="color: #595876;">-more-</p>
+    </section>
+
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"Automaton can do things like capture all the screens from
+            devices, allowing us to do rapid side-by-side human inspection after our comparison algorithm filters out
+            variance in display. Human intelligence is too valuable to waste on something a computer can do and should
+            be applied where intelligence and human judgment is best; a repetitive task is definitely not one of those
+            areas."
+        </p>
+
+        <p><span style="color: #27b48b;">My thoughts: Map tile updates anyone?</span>
+
+        <p style="color: #595876;">-more-</p>
+
+    </section>
+    <section>
+
+
+        <p style="font-style:italic; color: #4682b4;">"Our tools and approaches generally don’t need a lot of selling.
+            We hold what we call Engineering Productivity Reviews weekly and demo our tools."
+        </p>
+
+
+        <p style="font-style:italic; color: #4682b4;">"We also have supporting infrastructure that provides smart ways to provide test prioritization to detect
+        relevant tests that need to be run based on the specific code changes. This provides targeted test coverage,
+        better confidence in code quality, and faster feedback, saving Google a huge amount of engineering resources."
+        </p>
+
+    </section>
+
 </section>
 
 <section>
     <h2>Chapter 5. Improving How Google Tests Software</h2>
+</section>
+
+<section>
+    <section>
+        <h2>What DEV needs to hear in order to make this transition:</h2>
+        <ul>
+            <li>Focusing on the development environment that a newbie developer would have to work with on your team is
+                really critical. Make it dead easy to get started to check out code, edit code, test code, run code,
+                debug code, and then deploy code.
+            </li>
+            <li>Take away the pain from each of these steps and your developers will be productive and you will produce
+                high-quality software on time.
+            </li>
+            <li>???</li>
+        </ul>
+    </section>
 </section>
 
 <section>
@@ -970,6 +1216,20 @@
         <li>It's okay to replace manual test cases with measuring/training for quality</li>
         <li>It's okay for the 'requirements' of 'What should it do?' to be documented in only a test</li>
         </ul>
+        <p style="color: #595876;">-more-</p>
+    </section>
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"It’s important to note that we are tasking a test team only with
+            <span style="color: #ffa65b;">impact</span>. We are specifically not asking the TEM and her team to ensure
+            that the product is <span style="color: #ffa65b;">high quality</span>."
+        </p>
+
+        <p style="font-style:italic; color: #4682b4;">"We are specifically not asking the TEM and her team to ensure
+            that the product is high quality. We are not
+            asking the TEM and her team to make the product ship on time. We are not going to blame testing if the
+            product is unsuccessful or unloved by users."
+
+        </p>
     </section>
 </section>
 
@@ -1003,9 +1263,10 @@
         <li style="font-size: 25px;">Login to: http://safari.aol.com</li>
         <li style="font-size: 25px;">Then: http://techbus.safaribooksonline.com/9780132851572</li>
     </ul>
-    <h4>Google Testing Blog:</h4>
+    <h4>Google Resources:</h4>
     <ul>
         <li style="font-size: 25px;">http://googletesting.blogspot.com/</li>
+        <li style="font-size: 25px;">https://code.google.com/p/bite-project/</li>
     </ul>
     <h4>Why James Whittaker left Google</h4>
     <ul>
@@ -1013,6 +1274,7 @@
             http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx
         </li>
     </ul>
+
 
 </section>
 
