@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/scooterhat.github.com.iml" filepath="$PROJECT_DIR$/.idea/scooterhat.github.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/brown-bag.iml" filepath="$PROJECT_DIR$/.idea/brown-bag.iml" />
     </modules>
   </component>
 </project>
