@@ -2,44 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f8e5e4d-01b0-4d29-9b88-e6649261d28e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/css/reveal.min.css" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/css/reveal.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/css/theme/default.css" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/css/theme/default.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/css/theme/raincloud.css" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/css/theme/raincloud.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/css/theme/sky.css" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/css/theme/sky.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/img/HowGTestsSoftwareBookCover.png" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/img/HowGTestsSoftwareBookCover.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/img/HowGTestsSoftwareBookCover2.png" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/img/HowGTestsSoftwareBookCover2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/index.html" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/js/reveal.min.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/js/reveal.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/css/zenburn.css" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/css/zenburn.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/font/league_gothic-webfont.eot" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/font/league_gothic-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/font/league_gothic-webfont.svg" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/font/league_gothic-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/font/league_gothic-webfont.ttf" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/font/league_gothic-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/font/league_gothic-webfont.woff" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/font/league_gothic-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/font/league_gothic_license" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/font/league_gothic_license" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/js/classList.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/js/classList.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/js/head.min.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/js/head.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/lib/js/html5shiv.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/lib/js/html5shiv.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/highlight/highlight.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/highlight/highlight.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/markdown/example.html" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/markdown/example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/markdown/example.md" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/markdown/example.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/markdown/markdown.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/markdown/markdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/markdown/showdown.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/markdown/showdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/multiplex/client.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/multiplex/client.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/multiplex/index.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/multiplex/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/multiplex/master.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/multiplex/master.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/notes-server/client.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/notes-server/client.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/notes-server/index.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/notes-server/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/notes-server/notes.html" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/notes-server/notes.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/notes/notes.html" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/notes/notes.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/notes/notes.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/notes/notes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/postmessage/example.html" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/postmessage/example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/postmessage/postmessage.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/postmessage/postmessage.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/print-pdf/print-pdf.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/print-pdf/print-pdf.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/remotes/remotes.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/remotes/remotes.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/search/search.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/search/search.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/brown-bag/evolvingQA/plugin/zoom-js/zoom.js" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/plugin/zoom-js/zoom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="scooterhat.github.com.iws" />
@@ -59,10 +21,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brown-bag/owningQuality/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="81" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.96523756">
+            <state line="173" column="81" selection-start="5200" selection-end="5200" vertical-scroll-proportion="-34.708332">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="94" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.5040556">
               <folding />
             </state>
           </provider>
@@ -82,6 +53,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/brown-bag/owningQuality/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -323,7 +295,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/brown-bag/owningQuality/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="81" selection-start="5200" selection-end="5200" vertical-scroll-proportion="0.96523756">
+        <state line="173" column="81" selection-start="5200" selection-end="5200" vertical-scroll-proportion="-34.708332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="94" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.5040556">
           <folding />
         </state>
       </provider>
