@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f8e5e4d-01b0-4d29-9b88-e6649261d28e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/brown-bag/owningQuality/index.html" afterPath="$PROJECT_DIR$/brown-bag/owningQuality/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="scooterhat.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,10 +21,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/brown-bag/owningQuality/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="94" selection-start="4500" selection-end="4500" vertical-scroll-proportion="0.51332563">
+            <state line="1493" column="13" selection-start="64974" selection-end="64979" vertical-scroll-proportion="-932.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="25" selection-start="519" selection-end="519" vertical-scroll-proportion="0.20857474">
               <folding />
             </state>
           </provider>
@@ -43,8 +52,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/brown-bag/owningQuality/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -284,16 +293,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/brown-bag/owningQuality/css/theme/raincloud.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="94" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.5040556">
+        <state line="24" column="33" selection-start="773" selection-end="1392" vertical-scroll-proportion="0.2367531">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/brown-bag/owningQuality/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="94" selection-start="4500" selection-end="4500" vertical-scroll-proportion="0.51332563">
+        <state line="1493" column="13" selection-start="64974" selection-end="64979" vertical-scroll-proportion="-932.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="519" selection-end="519" vertical-scroll-proportion="0.20857474">
           <folding />
         </state>
       </provider>
