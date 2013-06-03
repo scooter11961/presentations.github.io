@@ -1,0 +1,51 @@
+/* Structure */
+#wrapper {
+    width: 96%;
+    max-width: 920px;
+    margin: auto;
+    padding: 2%;
+}
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #555a5f;
+    background: #bdd1f4;
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(10%, #adc1e4), color-stop(100%, #72848e));
+    background: -webkit-radial-gradient(center, circle cover, #adc1e4 10%, #72848e 100%);
+    background: -o-radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
+    background: -ms-radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
+    background: radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
+    background-color: #bdd1f4;
+}
+
+.presentations {
+list-style-type: circle;
+    padding: 2%;
+}
+
+.presentations li {
+margin-bottom: 20px;
+}
+
+.presentations li > * {
+display: block;
+}
+
+.presentations a {
+color: steelblue;
+    font-size: 18px;
+}
+
+.presentations span {
+font-size: 10px;
+    /* color: #72848e; */
+    color: #f5f5f5;
+}
+
+.presentations p {
+font-style: italic;
+    font-size: 14px;
+}
+
+
