@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f8e5e4d-01b0-4d29-9b88-e6649261d28e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
     </list>
     <ignored path="scooterhat.github.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +36,7 @@
       <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="24" selection-start="746" selection-end="746" vertical-scroll-proportion="0.36666667">
+            <state line="24" column="14" selection-start="765" selection-end="765" vertical-scroll-proportion="0.4">
               <folding />
             </state>
           </provider>
@@ -341,7 +340,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="746" selection-end="746" vertical-scroll-proportion="0.36666667">
+        <state line="24" column="14" selection-start="765" selection-end="765" vertical-scroll-proportion="0.4">
           <folding />
         </state>
       </provider>
