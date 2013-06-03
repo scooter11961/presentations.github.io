@@ -1,51 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Presentations by Scott Hatch</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Presentations by Scott Hatch</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
 
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-        <style type="text/css">
-            body { font-family: 'Roboto Slab', serif;
-                width: 640px;
-                margin: 50px auto;
-                color: #555a5f;
-                background: #bdd1f4;
-                background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(10%, #adc1e4), color-stop(100%, #72848e));
-                background: -webkit-radial-gradient(center, circle cover, #adc1e4 10%, #72848e 100%);
-                background: -o-radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
-                background: -ms-radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
-                background: radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
-                background-color: #bdd1f4;
-            }
-            .presentations { list-style-type: none; padding: 0; }
-            .presentations li { margin-bottom: 20px; }
-            .presentations li > * { display: block; }
-            .presentations a { color: steelblue; font-size: 18px; }
-            .presentations span { font-size: 13px; color: #72848e; }
-        </style>
-    </head>
-    <body>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        body {
+            font-family: 'Roboto Slab', serif;
+            width: 640px;
+            margin: 50px auto;
+            color: #555a5f;
+            background: #bdd1f4;
+            background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(10%, #adc1e4), color-stop(100%, #72848e));
+            background: -webkit-radial-gradient(center, circle cover, #adc1e4 10%, #72848e 100%);
+            background: -o-radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
+            background: -ms-radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
+            background: radial-gradient(center, circle cover, #adc1e4 0%, #72848e 100%);
+            background-color: #bdd1f4;
+        }
 
-    <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
+        .presentations {
+            list-style-type: circle;
+            padding: 0;
+        }
 
-        <h1>Presentations by Scott Hatch</h1>
+        .presentations li {
+            margin-bottom: 20px;
+        }
 
-        <ul class="presentations">
-            <li>
-                <a href="brown-bag/owningQuality/index.html">Owning Quality: Evolving QA from 'compliance based' software testing</a>
-                <span>AOL / MapQuest Brown Bag in Dublin, June 2013</span>
-            </li>
-            <li>
-                <a href="brown-bag/howGtestssoftware/index.html">How G test[ed] Software: A book report</a>
-                <span>MapQuest Travel Apps Team Brown Bag in Denver CO, May 17, 2013</span>
-            </li>
-        </ul>
-    </body>
+        .presentations li > * {
+            display: block;
+        }
+
+        .presentations a {
+            color: steelblue;
+            font-size: 18px;
+        }
+
+        .presentations span {
+            font-size: 12px;
+            color: #72848e;
+        }
+
+        .presentations p {
+            font-style: italic;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to
+    improve your experience.</p>
+<![endif]-->
+
+<h1>Presentations by Scott Hatch</h1>
+
+<ol class="presentations">
+    <li>
+        <a href="brown-bag/owningQuality/index.html">Owning Quality: Evolving QA from 'compliance based' software
+            testing to 'baked in quality'</a>
+
+        <p>"The definition of Quality Assurance has been changing rapidly in the software industry. In a few short
+            years, we have gone from a model where requirements, and testing procedures where created months in advance,
+            and waterfall release cycles created a back-and-forth bug fix cycle between development, and testing. In
+            today's fast paced software industry, Agile teams are demanding of us more in terms of delivery, speed to
+            market, and of course, still quality! This is a talk about what some teams have found useful to perform at
+            this new level."
+        </p>
+        <span>- AOL / MapQuest Brown Bag in Dublin, June 2013</span>
+    </li>
+
+    <li>
+        <a href="brown-bag/howGtestssoftware/index.html">How Google test[ed] Software: A book report</a>
+
+        <p>"Google has always been a leader in Engineering. This discussion takes a deep dive into the pros and cons
+            described in 'How Google tests Software' by James Whittaker"</p>
+        <span>- MapQuest Travel Apps Team Brown Bag in Denver CO, May 17, 2013</span>
+    </li>
+</ol>
+</body>
 </html>
 
