@@ -117,56 +117,252 @@
 
 <section>
     <h1 style="font-size: 90px;">Owning Quality</h1>
-    <h4 style="font-weight: bold; color: steelblue;">Evolving QA from 'compliance based' testing to team ownership</h4>
-
+    <h4 style="font-weight: bold; color: steelblue;">Evolving QA from 'compliance based' testing to 'team
+        ownership'</h4>
     <h4 style="margin-top: 35px;">Scott Hatch - June 2013</h4>
+
+    <aside class="notes">
+        Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the
+        speaker notes window (hit 's' on your keyboard).
+        F to enter presentation mode, ESC to exit presentation mode
+        . to go to black screen to start
+    </aside>
 </section>
-
-
 
 <section>
     <h2 style="font-weight: bold; color: steelblue;">What is this?</h2>
-</section>
-
-<section>
-
+    <img class="fragment roll-in" src="img\Wall_IMG_1855.jpg" height="475" width="825">
 
 </section>
 
 <section>
-    <h2 style="font-weight: bold; color: steelblue;">First, some history...</h2>
+    <h2 style="font-weight: bold; color: steelblue;">Let's take a quick look at software development history...</h2>
 </section>
 
 <section>
-    <h2 style="font-weight: bold; color: steelblue;">Approaches to Software Development</h2>
-    <ul>Waterfall-ish RUP style
+    <h3 style="font-weight: bold; color: steelblue;">Waterfall-ish RUP style</h3>
+    <ul>
         <li>Inception</li>
         <li>Elaboration</li>
         <li>Construction</li>
         <li>Transition</li>
     </ul>
+    <img style=position:relative;left:30px;top:50px; class="fragment roll-in" src="img\rup.jpg" height="300" width="300">
 </section>
 
 <section>
-
+    <h3 style="font-weight: bold; color: steelblue;">Agile / Scrum Software Development</h3>
     <ul>
-
-        <li>Agile / Scrum Software Development</li>
         <li>Individuals and interactions over processes and tools</li>
         <li>Working software over comprehensive documentation</li>
         <li> Customer collaboration over contract negotiation</li>
         <li> Responding to change over following a plan</li>
-
         <li> That is, while there is value in the items on
             the right, we value the items on the left more.
         </li>
     </ul>
-
 </section>
 
 <section>
-<li>Agile XP (TDD, paring partners)</li>
+    <h3 style="font-weight: bold; color: steelblue;">Agile XP</h3>
+    <ul>
+        <li>Test Driven Development, lots of unit tests</li>
+        <li>Code paring partners</li>
+        <li>Scripted deployments</li>
+        <li>Build servers</li>
+        <li>Continuous refactoring</li>
+        <li>Embedded product team member</li>
+    </ul>
 </section>
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Quality ≠ Test</h3>
+
+    <p class="fragment roll-in" style="font-style:italic; color: #8fbc8f;">“Quality is not equal to test. Quality is
+        achieved by putting
+        development and testing into a blender and mixing them until one is indistinguishable from the other.”</p>
+
+    <p class="fragment roll-in" style="font-style:italic; color: #8fbc8f;">“Testing must be an unavoidable aspect of
+        development, and the
+        marriage of development and testing is where quality is achieved."</p>
+
+
+</section>
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Compliance based compared to team ownership</h3>
+
+    <p>Definition of Quality Assurance: <span style="font-style:italic; color: #8fbc8f;">“A program for the systematic monitoring and evaluation of the various aspects of a
+        project or service to ensure that standards of quality are being met"</span>
+    </p>
+
+    <p>Definition of Quality Control: <span style="font-style:italic; color: #8fbc8f;">“An aggregate of activities (as design analysis and inspection for defects) designed
+        to ensure adequate quality especially in manufactured products"</span>
+    </p>
+</section>
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Testing Sizes</h3>
+
+    <img src="img\Test-sizes.png" height="475  " width="825">
+
+    <p style="font-size: 20px; color: #f5f5f5; text-align: right;">* How Google tests Software, page 44</p>
+
+    <p style="font-style:italic; color: #8fbc8f;">“Small tests lead to code quality. Medium and large tests lead to
+        product quality."</p>
+</section>
+
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Let's talk about product needs...</h3>
+    <ol>
+        <li>Fast. Features to market Fast</li>
+        <li>Fast is measured in days (not weeks, or months)</li>
+        <li>Quality, but not perfect</li>
+        <li>We can afford to get it ' mostly right' as a MVP (Minimum Viable Product)</li>
+        <li>We can accept MVPs, because we iterate fast, and can make adjustments soon (hours, days)</li>
+        <li>A/B testing. With clear business goals, and as small a piece of functionality as possible</li>
+    </ol>
+</section>
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Small parts add up to 'Continuous Quality'</h3>
+
+    <ul>
+        <li>Monitoring tools, like Exceptional Notifier, or New Relic</li>
+    </ul>
+</section>
+
+<section>
+    <ul>Testing suites can be run to check impact of 3rd party (internal and external APIs)</ul>
+    <ul>Ideally, it would be great to have 'providers' of internal APIs to have build severs run parts of consumer apps
+        test suites to verify no regressions have occurred BEFORE releasing a new build
+    </ul>
+</section>
+
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Moving forward:</h3>
+</section>
+
+<section>
+    <section>
+        <h3 style="font-weight: bold; color: steelblue;">What DEV needs to hear to make this transition:</h3>
+        <ul>
+            <li class="fragment roll-in">Crawl, Walk, Run</li>
+            <li class="fragment roll-in" style="font-style:italic; color: #8fbc8f;">Focusing on the development
+                environment that a newbie
+                developer would have to work with on your team is
+                really critical. Make it dead easy to get started to check out code, edit code, test code, run code,
+                debug code, and then deploy code.
+            </li>
+            <li class="fragment roll-in">Take away the pain from each of these steps and your developers will be
+                productive and you will produce
+                high-quality software on time.
+            </li>
+            <li class="fragment roll-in">An excellent way to 'disciple' this is to embed visiting engineers for a few
+                weeks.
+            </li>
+            <li class="fragment roll-in">Examples include AOL AIM team -> MQ Discover and MQ -> Pivotal Labs.</li>
+        </ul>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h3 style="font-weight: bold; color: steelblue;">What QA needs to hear to make this transition:</h3>
+        <ul>
+            <li class="fragment roll-in">It is okay for a team to own quality by themselves</li>
+            <li class="fragment roll-in">Because: We will never break the 'safety net' mentality without that</li>
+            <li class="fragment roll-in">Management needs to be willing to prioritize 'Faster to Market' over other
+                concerns
+            </li>
+            <li class="fragment roll-in">Because: We can get the team to own quality, thus motivating them to write
+                their own automated
+                tests, knowing that occasionally hey will release a bug, but they can find and fix it in a day or two.
+            </li>
+        </ul>
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+    </section>
+    <section>
+        <li>Testers (SETs and TEs) become a scarce, valuable, and sought after resource. There are assigned as a
+            on-loan
+            status, not a entitlement to the team.
+        </li>
+        <li class="fragment roll-in">Quality tracking of a teams release health (cost to perform a release, frequency of
+            releases,
+            Occurrences of
+            Severity 1 bugs, frequency of production rollbacks) become the front line indicator of how well a team
+            is
+            performing
+        </li>
+        <li class="fragment roll-in">Implement a 'Test Certified Level' program to measure/ incentivize teams to improve
+            their quality
+        </li>
+        <li class="fragment roll-in">It's okay to redefine Quality from Ownership(by a tester) to Process. This one is
+            hard for me.
+        </li>
+        <li class="fragment roll-in">It's okay to replace manual test cases with measuring/training for quality</li>
+        <li class="fragment roll-in">It's okay for the 'requirements' of 'What should it do?' to be documented in only a
+            test
+        </li>
+        </ul>
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+    </section>
+    <section>
+        <p style="font-style:italic; color: #4682b4;">"It’s important to note that we are tasking a test team only with
+            <span style="color: #ffa65b;">impact</span>. We are specifically not asking the TEM and her team to ensure
+            that the product is <span style="color: #ffa65b;">high quality</span>."
+        </p>
+
+        <p class="fragment roll-in" style="font-style:italic; color: #4682b4;">"We are specifically not asking the TEM
+            and her team to ensure
+            that the product is high quality. We are not
+            asking the TEM and her team to make the product ship on time. We are not going to blame testing if the
+            product is unsuccessful or unloved by users."
+
+        </p>
+    </section>
+</section>
+
+
+<!--End pages -->
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Further Learning:</h3>
+
+    <h4 style="text-align: left;">AOL Safari books:</h4>
+    <ul style="position:relative;left:10px;font-size: 25px;">
+        <li>Login to: http://safari.aol.com</li>
+        <li>Then: http://techbus.safaribooksonline.com/9780132851572</li>
+    </ul>
+    <h4 style="text-align: left;">Google Resources:</h4>
+    <ul style="position:relative;left:-110px;font-size: 25px;">
+        <li>http://googletesting.blogspot.com/</li>
+        <li>https://code.google.com/p/bite-project/</li>
+    </ul>
+</section>
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">Thanks to:</h3>
+
+    <h4 style="text-align: left;">Technologists:</h4>
+    <ul style="position:relative;left:10px;font-size: 25px;">
+        <li>reveal.js - this awesome presentation software</li>
+        <li>James Whittaker (& team) at 'big G' for challenging the status quo</li>
+        <li>Our Company - for always wanting to improve</li>
+    </ul>
+
+    <h4 style="text-align: left;">Attributions:</h4>
+
+    <ul style="position:relative;left:115px;font-size: 25px;">
+        <li>Most all of the quotes referenced in this presentation are from "How Google Tests Software - James A.
+            Whittaker.Copyright 2012 Pearson Education, Inc."</li>
+        <li>The definitions are from "http://www.merriam-webster.com/"</li>
+        <li>RUP chart from http://www.ibm.com/developerworks/webservices/library/ws-soa-term2/rup.jpg</li>
+    </ul>
+
+
+</section>
+
 
 <!-- old copy
 <section>
@@ -1373,6 +1569,7 @@
     <section>
         <h2>What DEV needs to hear in order to make this transition:</h2>
         <ul>
+            <li>Crawl, Walk, Run</li>
             <li>Focusing on the development environment that a newbie developer would have to work with on your team is
                 really critical. Make it dead easy to get started to check out code, edit code, test code, run code,
                 debug code, and then deploy code.

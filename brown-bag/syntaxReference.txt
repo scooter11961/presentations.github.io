@@ -1,0 +1,42 @@
+
+
+https://github.com/hakimel/reveal.js/
+
+
+
+** Code syntax highlighting ** - https://github.com/hakimel/reveal.js/#code-syntax-highlighting
+
+By default, Reveal is configured with highlight.js for code syntax highlighting. Below is an example with clojure code that will be syntax highlighted. When the data-trim attribute is present surrounding whitespace is automatically removed.
+
+<section>
+    <pre><code data-trim>
+(def lazy-fib
+  (concat
+   [0 1]
+   ((fn rfib [a b]
+        (lazy-cons (+ a b) (rfib b (+ a b)))) 0 1)))
+    </code></pre>
+</section>
+
+
+
+
+
+
+
+
+** Fragments **  - https://github.com/hakimel/reveal.js/#fragments
+
+Fragments are used to highlight individual elements on a slide. Every element with the class fragment will be stepped through before moving on to the next slide. Here's an example: http://lab.hakim.se/reveal-js/#/16
+
+The default fragment style is to start out invisible and fade in. This style can be changed by appending a different class to the fragment:
+
+<section>
+    <p class="fragment grow">grow</p>
+    <p class="fragment shrink">shrink</p>
+    <p class="fragment roll-in">roll-in</p>
+    <p class="fragment fade-out">fade-out</p>
+    <p class="fragment highlight-red">highlight-red</p>
+    <p class="fragment highlight-green">highlight-green</p>
+    <p class="fragment highlight-blue">highlight-blue</p>
+</section>
