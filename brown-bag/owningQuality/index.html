@@ -147,7 +147,8 @@
         <li>Construction</li>
         <li>Transition</li>
     </ul>
-    <img style=position:relative;left:30px;top:50px; class="fragment roll-in" src="img\rup.jpg" height="300" width="300">
+    <img style=position:relative;left:30px;top:50px; class="fragment roll-in" src="img\rup.jpg" height="300"
+         width="300">
 </section>
 
 <section>
@@ -231,16 +232,37 @@
         <li>Monitoring tools, like Exceptional Notifier, or New Relic</li>
         <li>Pair programming or pull request code reviews</li>
         <li>Risk based planning for manual testing</li>
+        <li>Co-locate as much as possible</li>
+        <li>It's not worth building tests to get to 100% coverage</li>
     </ul>
 </section>
 
 <section>
     <h3 style="font-weight: bold; color: steelblue;">What about integration points?</h3>
     <ul>
-    <li>Testing suites can be defined to run and check impact of 3rd party (internal and external APIs)</li>
-    <li>Ideally, it would be great to have 'providers' of internal APIs to depend on build severs to run partial test suites of consumer apps
-         to find any regressions BEFORE releasing a new API</li>
+        <li>Testing suites can be defined to run and check impact of 3rd party (internal and external APIs)</li>
+        <li>Ideally, it would be great to have 'providers' of internal APIs to depend on build severs to run partial
+            test suites of consumer apps
+            to find any regressions BEFORE releasing a new API
+        </li>
     </ul>
+</section>
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">So what does our team look like?</h3>
+    <img class="fragment roll-in" style=position:static; src="img\agileteams-original.png" height="400" width="700">
+    <img class="fragment roll-in" style=position:absolute;left:125px;top:90px; src="img\agileteams-blend.png"
+         height="400" width="700">
+</section>
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">SWEs, SETs, TEs</h3>
+    <ul>
+        <li>SWEs - Software Engineers</li>
+        <li>SETs - Software Engineers in Test</li>
+        <li>TEs - Test Engineers</li>
+    </ul>
+
 </section>
 
 
@@ -276,22 +298,30 @@
         <h3 style="font-weight: bold; color: steelblue;">What QA needs to hear to make this transition:</h3>
         <ul>
             <li class="fragment roll-in">It is okay for a team to own quality by themselves</li>
-            <li class="fragment roll-in">Because: We will never break the 'safety net' mentality without that</li>
-            <li class="fragment roll-in">Management needs to be willing to prioritize 'Faster to Market' over other
-                concerns
+            <li class="fragment roll-in"><span style="color: #ffa65b;">Because:</span> We will never get past the
+                'safety net' without it
             </li>
-            <li class="fragment roll-in">Because: We can get the team to own quality, thus motivating them to write
-                their own automated
-                tests, knowing that occasionally hey will release a bug, but they can find and fix it in a day or two.
+            <li class="fragment roll-in">Management needs to be communicate the priority of 'Faster to Market' over
+                other
+                concerns, including 100% right
+            </li>
+            <li class="fragment roll-in"><span style="color: #ffa65b;">Because:</span> We want to move quality to the
+                team, thus creating the incentive to write
+                their own automated tests. We know that occasionally a bug may be released, but it can be found and
+                fixed it the next release.
             </li>
         </ul>
         <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
     </section>
     <section>
         <li>Testers (SETs and TEs) become a scarce, valuable, and sought after resource. There are assigned as a
-            on-loan
-            status, not a entitlement to the team.
+            on-loan status, not a entitlement to the team.
         </li>
+        <li class="fragment roll-in"><span style="color: #ffa65b;">Because:</span> They float from product to product,
+            helping influence quality
+        </li>
+
+
         <li class="fragment roll-in">Quality tracking of a teams release health (cost to perform a release, frequency of
             releases,
             Occurrences of
@@ -359,7 +389,8 @@
 
     <ul style="position:relative;left:115px;font-size: 25px;">
         <li>Most all of the quotes referenced in this presentation are from "How Google Tests Software - James A.
-            Whittaker.Copyright 2012 Pearson Education, Inc."</li>
+            Whittaker.Copyright 2012 Pearson Education, Inc."
+        </li>
         <li>The definitions are from "http://www.merriam-webster.com/"</li>
         <li>RUP chart from http://www.ibm.com/developerworks/webservices/library/ws-soa-term2/rup.jpg</li>
     </ul>
