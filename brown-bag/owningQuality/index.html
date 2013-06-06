@@ -132,7 +132,6 @@
 <section>
     <h2 style="font-weight: bold; color: steelblue;">What is this?</h2>
     <img class="fragment roll-in" src="img\wall_img_1855.jpg" height="475" width="825">
-
 </section>
 
 <section>
@@ -154,12 +153,12 @@
 <section>
     <h3 style="font-weight: bold; color: steelblue;">Agile / Scrum Software Development</h3>
     <ul>
-        <li>Individuals and interactions over processes and tools</li>
-        <li>Working software over comprehensive documentation</li>
-        <li> Customer collaboration over contract negotiation</li>
-        <li> Responding to change over following a plan</li>
+        <li><span style="color: #ffa65b;">Individuals and interactions</span> over processes and tools</li>
+        <li><span style="color: #ffa65b;">Working software</span> over comprehensive documentation</li>
+        <li><span style="color: #ffa65b;">Customer collaboration</span> over contract negotiation</li>
+        <li><span style="color: #ffa65b;">Responding to change</span> over following a plan</li>
         <li> That is, while there is value in the items on
-            the right, we value the items on the left more.
+            the right, <span style="color: #ffa65b;">we value the items on the left more.</span>
         </li>
     </ul>
 </section>
@@ -177,15 +176,13 @@
 </section>
 
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">Quality ≠ Test</h3>
+    <h3 style="font-weight: bold; color: steelblue;">But... Quality ≠ Test</h3>
 
     <p class="fragment roll-in" style="font-style:italic; color: #8fbc8f;">“Quality is not equal to test. Quality is
-        achieved by putting
-        development and testing into a blender and mixing them until one is indistinguishable from the other.”</p>
+        achieved by putting development and testing into a blender and mixing them until one is indistinguishable from the other.”</p>
 
     <p class="fragment roll-in" style="font-style:italic; color: #8fbc8f;">“Testing must be an unavoidable aspect of
-        development, and the
-        marriage of development and testing is where quality is achieved."</p>
+        development, and the marriage of development and testing is where quality is achieved."</p>
 
 
 </section>
@@ -201,31 +198,20 @@
     </p>
 
     <p class="fragment roll-in">Moving towards team ownership: <span style="font-style:italic; color: #8fbc8f;">“The goal of engineers with 'Testing' in their title should be to improve the productivity of those who write
-        features. Testing must not create friction that slows down innovation and development. </span>
+        feature code. Testing must not create friction that slows down innovation and development. </span>
     </p>
 </section>
 
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">Testing Sizes</h3>
-
-    <img src="img\test-sizes.png" height="475  " width="825">
-
-    <p style="font-size: 20px; color: #f5f5f5; text-align: right;">* How Google tests Software, page 44</p>
-
-    <p style="font-style:italic; color: #8fbc8f;">“Small tests lead to code quality. Medium and large tests lead to
-        product quality."</p>
-</section>
-
-
-<section>
     <h3 style="font-weight: bold; color: steelblue;">Let's talk about product needs...</h3>
     <ol>
-        <li>Fast. Features to market Fast</li>
-        <li>Fast is measured in days (not weeks, or months)</li>
-        <li>Quality, but not perfect</li>
-        <li>We can afford to get it ' mostly right' as a MVP (Minimum Viable Product)</li>
-        <li>We can accept MVPs, because we iterate fast, and can make adjustments soon (hours, days)</li>
-        <li>A/B testing. With clear business goals, and as small a piece of functionality as possible</li>
+        <li>Fast. Features to market Fast. Fail fast.</li>
+        <li>Fast is measured in days(hours?), not weeks, or months.</li>
+        <li>The 'happy paths' work well</li>
+        <li>Don't let perfect be the enemy of good</li>
+        <li>Can we afford to get it 'mostly right' as a MVP (Minimum Viable Product/Feature)?</li>
+        <li>Can we accept MVPs, because we iterate fast as a team, and can make adjustments quickly (hours, days)</li>
+        <li>Can we include A/B testing? With measurable business goals, and as isolated as possible?</li>
     </ol>
 </section>
 
@@ -235,19 +221,27 @@
     <ul>
         <li>Monitoring tools, like Exceptional Notifier, or New Relic</li>
         <li>Pair programming or pull request code reviews</li>
-        <li>Risk based planning for manual testing</li>
-        <li>Co-locate as much as possible</li>
-        <li>It's not worth building tests to get to 100% coverage</li>
+        <li>Risk based planning for exploratory testing</li>
+        <li>Co-locate team members as much as possible</li>
     </ul>
 </section>
 
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">What about integration points?</h3>
+    <h3 style="font-weight: bold; color: steelblue;">Testing Sizes</h3>
+
+    <img src="img\test-sizes.png" height="475  " width="825">
+    <p style="font-size: 20px; color: #f5f5f5; text-align: right;">* How Google tests Software, page 44</p>
+    <p style="font-style:italic; color: #8fbc8f;">“Small tests lead to code quality. Medium and large tests lead to
+        product quality."</p>
+</section>
+
+
+<section>
+    <h3 style="font-weight: bold; color: steelblue;">What about integration with other services?</h3>
     <ul>
-        <li>Testing suites can be defined to run and check impact of 3rd party (internal and external APIs)</li>
-        <li>Ideally, it would be great to have 'providers' of internal APIs to depend on build severs to run partial
-            test suites of consumer apps
-            to find any regressions BEFORE releasing a new API
+        <li>What if testing suites could be defined to run and check impact of 3rd party (internal and external APIs)?</li>
+        <li>What if we had 'providers' of internal APIs configure build severs to run partial
+            test suites of consumer apps to find any regressions BEFORE releasing a new API?
         </li>
     </ul>
 </section>
