@@ -226,16 +226,38 @@
 </section>
 
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">Testing Sizes</h3>
+    <section>
+        <h3 style="font-weight: bold; color: steelblue;">Testing Sizes</h3>
 
-    <img src="img\test-sizes.png" height="475  " width="825">
+        <img src="img\test-sizes.png" height="475  " width="825">
 
-    <p style="font-size: 20px; color: #f5f5f5; text-align: right;">* How Google tests Software, page 44</p>
+        <p style="font-size: 20px; color: #f5f5f5; text-align: right;">* How Google tests Software, page 44</p>
 
-    <p style="font-style:italic; color: #8fbc8f;">“Small tests lead to code quality. Medium and large tests lead to
-        product quality."</p>
+        <p style="font-style:italic; color: #8fbc8f;">“Small tests lead to code quality. Medium and large tests lead to
+            product quality."</p>
+
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+    </section>
+
+    <section>
+        <p> The question a <span style="color: #27b48b;">small test</span> attempts to answer is, <span
+                style="font-style:italic; color: #4682b4;">“Does this code do what it is supposed to do?”</span>
+        </p>
+
+        <p> The question a <span style="color: #27b48b;">medium test</span> attempts to
+            answer is, <span style="font-style:italic; color: #4682b4;">“Does a set of near neighbor functions interoperate
+    with each other the way they are supposed to?”</span> <span style="color: #27b48b;"></p>
+
+        <p> The question a <span style="color: #27b48b;">large test</span> attempts to answer is, <span
+                style="font-style:italic; color: #4682b4;">“Does the product operate the way a user would expect and
+                produce the desired results?”</span>
+        </p>
+
+        <p class="fragment roll-in">Projects are encouraged to maintain a healthy mixture of test sizes among their
+            various test suites. It is considered just as wrong to perform all automation through a large end-to-end
+            testing framework as it is to provide only small unit tests for a project</p>
+    </section>
 </section>
-
 
 <section>
     <h3 style="font-weight: bold; color: steelblue;">What about integration with other services?</h3>
@@ -257,20 +279,21 @@
 
 <section>
     <section>
-    <h3 style="font-weight: bold; color: steelblue;">SWEs, SETs, TEs</h3>
-    <ul>
-        <li>SWEs - Software Engineers</li>
-        <li>SETs - Software Engineers in Test</li>
-        <li>TEs - Test Engineers</li>
-    </ul>
+        <h3 style="font-weight: bold; color: steelblue;">SWEs, SETs, TEs</h3>
+        <ul>
+            <li>SWEs - Software Engineers</li>
+            <li>SETs - Software Engineers in Test</li>
+            <li>TEs - Test Engineers</li>
+        </ul>
 
-    <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
     </section>
     <section>
         <h3><span style="color: #27b48b;">SWE </span> (Software Engineers)</h3>
         <ul>
+            <li>Write functional code to deliver user stories</li>
             <li>Work in a test driven development model</li>
-            <li>Create unit tests for code, javascript, etc.</li>
+            <li>Create tests for code, javascript, etc.</li>
             <li>Create spec tests that may test with real browsers, or headless browsers</li>
             <li>They build mocks or fakes when needed for unit tests to interact with</li>
         </ul>
@@ -282,7 +305,7 @@
             <li>SWEs fix the bugs that are found in their products</li>
             <li>They submit ‘Change Sets’ of code</li>
             <li>They perform code reviews or work in Pair Programming</li>
-            <li>SWEs own the quality of the product they build, there is no 2nd phase acting as a QA last check
+            <li>SWEs own the quality of the product they build, there is no 2nd team acting as a QA last check
                 safety net.
             </li>
 
@@ -300,6 +323,7 @@
             <li> May build mocks and fakes for unit tests to interact with</li>
             <li> May build custom tools when needed (java/ruby test code?)</li>
             <li> May contribute to functional code occasionally</li>
+            <li> Perform exploratory testing</li>
             <li> SETs have a skillset on par with the SWEs</li>
         </ul>
         <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
@@ -308,21 +332,20 @@
         <h3><span style="color: #27b48b;">TE </span> (Test Engineers)</h3>
         <ul>
             <li>TEs are responsible for the overall width of testing and coverage</li>
+            <li>Focus on thinking like the user</li>
             <li>Contribute to automated tests</li>
             <li>Perform risk analysis of features / products in order to guide the team in where to test, and how
                 much to test based on what is most important
             </li>
-            <li>Coordinate and perform organized, exploratory testing</li>
-            <li>Try to represent the viewpoint, and needs of the customer</li>
+            <li>Coordinate and perform organized, intelligent exploratory testing</li>
             <li>TEs are a rare commodity, considered highly valuable and 'on loan' to teams for a while</li>
         </ul>
     </section>
 </section>
 
 
-
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">Moving forward:</h3>
+    <h2 style="font-weight: bold; color: steelblue;">Moving forward:</h2>
 </section>
 
 <section>
@@ -332,8 +355,8 @@
             <li class="fragment roll-in">Crawl, Walk, Run</li>
 
             <li class="fragment roll-in">Focusing on the development environment that team members use is
-                really critical. Make it dead easy to get started to check out code, edit code, test code, run code,
-                debug code, and then deploy code.
+                really critical. Make it dead easy to get started to check out code, edit code, test code, view code
+                coverage, run code, debug code, and then deploy code.
 
             <span class="fragment roll-in" style="color: #ffa65b;"> Take away the pain from each of these steps and your developers will be
                 productive and you will be on your way to producing high-quality software on time.
@@ -371,20 +394,33 @@
             <li>Testers (SETs and TEs) become a scarce, valuable, and sought after resource. There are assigned as a
                 on-loan status, not a entitlement to the team.
             </li>
-            <li class="fragment roll-in"><span style="color: #ffa65b;">Benefit:</span> They float from product to
-                product (6 - 12 months?),
-                helping influence quality. This also helps share knowledge amongst the company.
-            </li>
-            <li class="fragment roll-in">Implement a 'Test Certified' ladder program.
-                <img class="fragment roll-in" src="img\testcertifiedbadges.png" height="50" width="250">
-            </li>
-            <li class="fragment roll-in"><span style="color: #ffa65b;">Benefit:</span> Can we get developers to take testing seriously if we make it a prestigious matter?
-                If developers follow certain practices and achieve specific results, can we say they are “certified” and create a badge system that provides some bragging rights?
+            <li class="fragment roll-in"><span style="color: #ffa65b;">Benefit:</span> This also facilitates movement of
+                SETs
+                and TEs from project to project, which not only keeps them fresh and engaged, but also ensures that good
+                ideas move rapidly around the company. One can imagine the downside of losing such expertise, but this
+                is balanced by a company full of generalist testers with a wide variety of product and technology
+                familiarity.
             </li>
         </ul>
         <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+
     </section>
 
+    <section>
+        <ul>
+            <li>Implement a 'Test Certified' ladder program.
+                <img class="fragment roll-in" style=position:relative;left:220px; src="img\testcertifiedbadges.png"
+                     height="50" width="250">
+            </li>
+            <li class="fragment roll-in"><span style="color: #ffa65b;">Benefit:</span> Can we get developers to take
+                testing seriously if we make it a prestigious matter?
+                If developers follow certain practices and achieve specific results, can we say they are “certified” and
+                create a badge system that provides some bragging rights?
+            </li>
+        </ul>
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+
+    </section>
     <section>
         <ul>
             <li>Look at the health of code releases to production to evaluate the quality on a
@@ -398,7 +434,7 @@
                 <li>These become the front line indicator of how well a team is performing.</li>
                 </li>
             </ul>
-         </ul>
+        </ul>
     </section>
 </section>
 
@@ -450,1217 +486,6 @@
 
 </section>
 
-
-<!-- old copy
-
-<section>
-    <section>
-        <h2><span style="color: #27b48b;">SWE </span> (Software Engineers)</h2>
-        <ul>
-            <li>Work in a test driven development model</li>
-            <li>Create unit tests for code, javascript, etc.</li>
-            <li>Create spec tests that may test with browsers</li>
-            <li>They build mocks or fakes when needed for unit tests to interact with</li>
-            <li>SWEs own the quality of the product they build, there is no 2nd team acting as a QA last check
-                safety net.
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <ul>
-            <li>SWEs fix the bugs that are found in their products</li>
-            <li>They submit ‘Change Sets’ of code</li>
-            <li>They perform code reviews</li>
-            <li>There was no direct mention as to weather SWEs pair programmed</li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <h2><span style="color: #27b48b;">SET</span>s (Software Engineers in Test)</h2>
-        <ul>
-            <li>SETs work to make SWEs more efficient.</li>
-            <li>Setup Agile tools like build servers (Jenkins), deploy scripts (shell scripts, Capistrano scripts,
-                test frameworks (like rspec/capbybara/selenium) javascript test frameworks (jasmine)
-            </li>
-            <li> Contribute to building, reviewing, and extending unit tests</li>
-            <li> May build mocks and fakes for unit tests to interact with</li>
-            <li> May build custom tools when needed (java/ruby test code?)</li>
-            <li> May contribute to functional code occasionally</li>
-            <li> SETs have a skillset on par with the SWEs</li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <h2><span style="color: #27b48b;">TE </span> (Test Engineers)</h2>
-        <ul>
-            <li>TEs are responsible for the overall width of testing and coverage</li>
-            <li>Contribute to automated tests</li>
-            <li>Perform risk analysis of features / products in order to guide the team in where to test, and how
-                much to test based on what is most important
-            </li>
-            <li>Perform organized, exploratory testing</li>
-            <li>Try to represent the viewpoint, and needs of the customer</li>
-            <li>TEs are a rare commodity, considered highly valuable and 'on loan' to teams for a while</li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-</section>
-
-<section>
-    <h2>Does the Google Testing model fit our business?</h2>
-
-    <p>After reading HGTS, it became clear to me that Google is a large company with a diverse
-        product line that cannot utilize one model of testing to fit all products. They choose to let teams decide what
-        testing techniques fit their needs.
-    </p>
-
-    <p>For example, the web product teams (like gMail, Google+, gMaps, etc.) are similar to us, and those are
-        the examples the comparisons are drawn from.</p>
-</section>
-
-
-<section>
-
-    <section>
-        <h2>Let's look more at their <span style="color: #27b48b;">Software process:</span></h2>
-        <ul>
-            <li>SETs help build testing frameworks and more tests that fit the needs of the product</li>
-            <li>TDD code is written</li>
-            <li>Code is completed in Change Sets, and submitted to source control</li>
-            <li>Some magic tool is used to analyze Change Sets, and determine what set of tests need to be run (across
-                multiple products) based on what has a dependency on the changed code
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <ul>
-            <li>SWEs run the identified custom test suite to verify code and that the Change Set does not introduce a
-                regression
-            </li>
-            <li>Upon verification of green tests, the Change Set is submitted to a build server</li>
-            <li>Further regression tests are run??</li>
-            <li>TEs review Change Sets, and perform targeted manual testing??</li>
-            <li>Code is released from HEAD</li>
-        </ul>
-    </section>
-</section>
-<section>
-    <h2>Let's look more at their <span style="color: #27b48b;">Submit/Build queues:</span></h2>
-
-    <ul>
-        <li>A submit queue’s primary goal in life is to keep the build “green,” meaning all tests pass</li>
-        <li>By building code and running tests in a clean environment, the submit queue catches environmental failures
-            that might not be caught by a developer running tests on an individual workstation, but that might
-            ultimately break the continuous build or, worse, make its way into the version control system in a broken
-            state
-        </li>
-        <li>A submit queue also enables members of large teams to collaborate on the main branch of the source tree
-        </li>
-
-
-    </ul>
-</section>
-
-
-<section>
-    <h2>Let's look more at their <span style="color: #27b48b;">Code Review process:</span></h2>
-    <ul>
-        <li>At Google everyone is a committer, but we use a concept called <span
-                style="color: #dd7d18;">readability</span> to distinguish between proven
-            committers and new developers
-        </li>
-
-
-    </ul>
-</section>
-
-
-<section>
-    <h2>Let's look more at their <span style="color: #27b48b;">Release process:</span></h2>
-    <ul>
-
-        <li>Products proceed through canary, development, testing, beta, and release channels before making it to
-            users
-        </li>
-
-        <li>
-            Canary or Development Channel: These are generally weekly builds that have sustained successful usage and
-            passed some set of tests
-        </li>
-
-        <li>
-            Test Channel: This is essentially the best build of the month in terms of the one that passes the most
-            sustained testing and the one engineers trust the most for their work
-        </li>
-
-        <li>Beta Channel or Release Channel: These builds are stable Test Channel builds that have survived internal
-            usage and pass every quality bar the team sets
-        </li>
-    </ul>
-</section>
-
-<section>
-    <section>
-        <h2>Let's look more at their <span style="color: #27b48b;">Test Levels:</span></h2>
-
-        <p>Small tests lead to code quality, good exception handling, and good error reporting, whereas larger tests
-            lead to overall product quality and data validation. No single test size in isolation can solve all of a
-            project’s testing needs.</p>
-
-        <p>Instead of distinguishing between code, integration, and system testing, Google uses the language of <span
-                style="color: #27b48b;">small,
-            medium, and large</span> tests (not to be confused with t-shirt sizing language of estimation among the
-            agile
-            community), emphasizing scope over form. Small tests cover small amounts of code and so on.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <p>Each of the three engineering roles can execute any of these types of tests and they can be performed as
-            automated or manual tests. Practically speaking, the smaller the test, the more likely it is to be
-            automated.</p>
-
-        <p>The mix between automated and manual testing definitely favors the former for all three sizes of tests.
-            Having said that, it is important to note that Google performs a great deal of manual testing, both scripted
-            and exploratory, but even this testing is done under the watchful eye of automation.</p>
-
-        <p>This is the convention at Google: Make the common case fast</p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-
-    <section>
-        <p><span style="color: #27b48b;">Small tests</span> are of short duration, usually running in seconds or less.
-            They are most likely written by a SWE,
-            less often by an SET, and hardly ever by TEs. <span style="color: #27b48b;">small tests</span> generally
-            require mocks and faked environments to
-            run.
-            TEs rarely write <span style="color: #27b48b;">small tests</span> but might run them when they are trying to
-            diagnose a particular failure. The
-            question a <span style="color: #27b48b;">small tests</span> attempts to answer is, <span
-                    style="font-style:italic; color: #4682b4;">“Does this code do what it is supposed to do?”</span>
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-
-    <section>
-        <p>Later in the development cycle, TEs can execute <span style="color: #27b48b;">medium tests</span> either
-            manually (in the event the test is
-            difficult or prohibitively expensive to automate) or with automation. The question a <span
-                    style="color: #27b48b;">medium tests</span> attempts to
-            answer is, <span style="font-style:italic; color: #4682b4;">“Does a set of near neighbor functions interoperate with each other the way they are supposed
-            to?”</span> <span style="color: #27b48b;">Medium tests</span> cover multiple and interacting units of code
-            in a faked or real environment.</p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <p><span style="color: #27b48b;">Large tests</span> cover three or more (usually more) features and
-            represent real user scenarios, use real user
-            data sources (not faked resources), and can take hours or even longer to run.
-        </p>
-
-        <p>There is some concern with overall integration of the features, but <span
-                style="color: #27b48b;">large tests</span>
-            tend to be more
-            results-driven, checking that the software satisfies user needs. All three roles are involved in writing
-            <span style="color: #27b48b;">large tests</span> and everything from automation to exploratory testing
-            can be the vehicle to accomplish them.
-            The
-            question a <span style="color: #27b48b;">large tests</span> attempts to answer is, <span
-                    style="font-style:italic; color: #4682b4;">“Does the product operate the way a user would expect and
-                produce the desired results?”</span>
-        </p>
-
-        <p>End-to-end scenarios that operate on the complete product or service are
-            <span style="color: #27b48b;">large tests</span>
-        </p>
-    </section>
-</section>
-
-
-<section>
-    <section>
-        <h2>Let's look more at their <span style="color: #27b48b;">Test Mixture:</span></h2>
-
-        <p style="font-style:italic; color: #4682b4;">"Projects at Google are encouraged to maintain a
-            healthy mixture of test sizes among their
-            various test suites. It is considered just as wrong to perform all automation through a large end-to-end
-            testing framework as it is to provide only small unit tests for a project"</p>
-
-        <p>
-            The general rule of thumb is to start with a rule of 70/20/10: 70 percent of tests should be small, 20
-            percent medium, and 10 percent large
-        </p>
-
-        <p> If projects are user-facing, have a high degree of integration, or complex user interfaces, they should have
-            more medium and large tests
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-
-        <p>Code coverage is a great tool for measuring whether a project’s tests have a healthy mixture of small,
-            medium, and large tests</p>
-
-        <p>Engineers are able to create and view these coverage reports on-the-fly using the same tools they use to
-            build and run their tests by specifying an additional command-line flag. Coverage reports are stored in the
-            cloud and can be viewed internally in any web browser by any engineer</p>
-
-        <p>Each test must be independent from other tests so that tests can be executed in any order. Tests must not
-            have any persistent side effects. They must leave their environment exactly in the state when it started</p>
-    </section>
-</section>
-
-
-<section>
-    <section>
-        <h2>Let's look more at their <span style="color: #27b48b;">Test Certified Program:</span></h2>
-
-        <p style="font-style:italic; color: #4682b4;">"Test Certified started out as a contest. Can we get developers to
-            take testing seriously if we make it a prestigious matter? If developers follow certain practices and
-            achieve specific results, can we say they are certified?</p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-
-    <section>
-        <div style="font-size: 14px;" class="newspaper">
-
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 1</span>
-                <li>Setup test coverage</li>
-                <li>Setup continuous build</li>
-                <li>Classify your tests as Small, Medium, and Large</li>
-                <li>Identify nondeterministic tests</li>
-                <li>Create a smoke test suite</li>
-            </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 2</span>
-                <li>No releases with red tests</li>
-                <li>Require a smoke test suite to pass before a submit</li>
-                <li>Incremental coverage by all tests >= 50%</li>
-                <li>Incremental coverage by all tests >= 10%</li>
-                <li>At least one feature tested by an integration test</li>
-            </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 3</span>
-                <li>Require tests for all non-trivial changes</li>
-                <li>Incremental coverage by small tests >= 50%</li>
-                <li>New significant features are tested by integration tests</li>
-            </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 4</span>
-                <li>Automate smoke tests before submitting new code</li>
-                <li>Smoke tests should take less than 30 minutes</li>
-                <li>No nondeterministic tests</li>
-                <li>Test coverage >= 40%</li>
-                <li>Test Coverage from small tests >= 25%</li>
-                <li>All significant features are tested by integration tests</li>
-            </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 5</span>
-                <li>Add a test for each nontrivial bug fix</li>
-                <li>Actively use available analysis tools</li>
-                <li>Total test coverage should be at least 60%</li>
-                <li>Test coverage from small tests alone should be at 40%</li>
-            </ul>
-        </div>
-    </section>
-
-
-    <section>
-        <p>In a culture where testing resources were scarce, signing up for this program got a product team far more
-            testers
-            than it ordinarily would have merited.</p>
-
-        <p>They got lots of attention from good testers who signed up to be Test Certified Mentors.</p>
-    </section>
-</section>
-
-
-<section>
-    <h2 style="font-weight: bold; color: steelblue;">Part 2 - Quotes and comments from the book:</h2>
-</section>
-
-<section>
-    <h2>Forward/intro:</h2>
-
-    <p style="font-style:italic; color: #4682b4;">"Developer unit tests are not enough, integration tests, system
-        tests, UI tests were still needed."</p>
-
-    <p><span style="color: #27b48b;">My thoughts: </span>Google originally had a team called “Testing Services”
-        and focused the majority of its energy on UI
-        validation and jumping into projects on an as-needed basis. They felt they could do better. It was later
-        changed into “Engineering
-        Productivity", and completely reversed their approach.</p>
-</section>
-
-<section>
-    <section>
-        <h2>Chapter 1. Introduction to Google Software Testing:</h2>
-
-        <p style="font-style:italic; color: #4682b4;">“Testing must not create friction that slows down innovation
-            and
-            development.“</p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>We need to question everything we do
-            with a value proposition. Does it add value? And
-            if so, for whom? The developer? Product owner? Customer? AOL? We need to be willing to accept that 80%
-            fast
-            is
-            often what is asked of us. Minimum Viable Product. Knowing we probably don’t have it right anyway, so
-            let’s
-            plan
-            to iterate soon to make it better, and react as needed when we know more.</p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“If you are an engineer, you are a tester. If you are an
-            engineer
-            with the word test in your title, then you
-            are an enabler of good testing for those other engineers who do not.”</p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>Later on, this book details the
-            difference between software coders, and testers. Coders are
-            focused
-            on creating a solution, with minimum complexity and effort, so that they can do more of the same again
-            tomorrow.
-            They are code writing optimists.</p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">"A tester is looking to find breakage in a product. They look
-            for
-            ways to demonstrate assumptions that are
-            lacking, or an interface that is not clear to a user, or software that does not work as assumed it would
-            in
-            other cases."</p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>Testers looks for holes, gaps, etc. finding places
-            where
-            bugs exist. Testers take this pessimist attitude
-            and use it to help SWEs learn how to live in both worlds. The goal is <span style="color: #ffa65b;">NOT TO
-            PROVIDE QUALITY ASSURANCE</span> to them, but to help demonstrate problems in the app that need fixed
-            (bugs). And
-            to help them switch to this way of thinking when needed. This chapter further asserts: “If you are an
-            engineer, you are a tester”</p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">"Although it is true that quality cannot be tested in, it is
-            equally evident that without testing, it is
-            impossible to develop anything of quality.”</p>
-
-        <p><span style="color: #27b48b;">My thoughts:</span> Confirming that quality has to be thought by the code
-            creators, and even then, the best code will have
-            assumptions, which can lead to bugs. Testing, and thinking through ways to break the code help uncover the
-            assumptions.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“We’ve not only prevented a lot of customer issues, we have
-            greatly reduced the number of dedicated testers necessary to ensure the absence of recall-class bugs.“
-        </p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>I find it interesting that Google sets the bar somewhat
-            low.
-            Are they only concerned by “recall-class bugs” ? Is it acceptable to allow smaller bugs to sneak through
-            because our stakeholders can tolerate 80% right? Do we expect the agile culture of reacting and fixing
-            quickly thereafter to be good enough?
-
-        <p>
-
-        <p>If this is the new Company culture, it needs to be demonstrated with patience from Management, and not
-            immediate demands for hotfixes (outside of the two releases per week), or feedback as to “Why did we miss
-            this?”.
-
-        <p>We can’t have it both ways, at least not in the beginning. Also this needs to accept that testers are scarce,
-            and attempts to find other ways to meet quality.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“Test exists in a separate and horizontal (across the product FAs)
-            Focus Area called Engineering Productivity. Testers are essentially on loan to the product teams and are
-            free to raise quality concerns and ask questions about functional areas that are missing tests or that
-            exhibit unacceptable bug rates. Because we don’t report to the product teams, we can’t simply be told to get
-            with the program.”
-        </p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>This is the secret to the whole program in my opinion. This
-            sums up the value. SWEs own their own quality, SET and TEs are “quality experts” who add value by enabling
-            more testing of code as well as product features, and are assigned to the teams who are in most need. This
-            implies that some teams may need NO testers, or infrequent help? This also helps maintain a check &
-            balance dynamic.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“If a development team wants us to take any shortcuts related to
-            testing, these must be negotiated in advance and we can always decide to say no.“
-        </p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>The service provided by Engineering productivity is not a
-            “rubber stamp of approval” especially if the tester does not agree, or feels that they are being
-            marginalized. Although testing should not add friction, it also should not be shortcut. IMO, this is a risk
-            based decision. If the team decides that minimal testing is acceptable for a specific feature, then that
-            view should be shared by the tester. Examples are Performance and Load testing, or minimal security testing.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“A product team cannot arbitrarily lower the technical bar for
-            testing talent or hire more testers than they need simply to dump menial work on them. Menial work around
-            any specific feature is the job of the developer who owns the feature and it cannot be pawned off on some
-            hapless tester. Testers are assigned by Engineering Productivity leads who act strategically based on the
-            priority, complexity, and needs of the product team in comparison to other product teams.”
-        </p>
-
-
-        <p><span style="color: #27b48b;">My thoughts: </span>With a ratio of 6 to 1 (devs to QA now) it is
-            obvious to me that we can’t expect the tester to do everything. Even if the team did did have the resources
-            to use many manual testers, this is short sided, because it is not repeatable like automated testing is.
-            Good point that the menial work is the responsibility of the engineer, and the tests written to cover it.
-            Interesting how testers are assigned based on the Engineering Productivity leads, not a defacto resource on
-            the team.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“The on-loan status of testers also facilitates movement of SETs
-            and TEs from project to project, which not only keeps them fresh and engaged, but also ensures that good
-            ideas move rapidly around the company” “It is generally accepted that 18 months on a product is enough for a
-            tester and that after that time, he or she can (but doesn’t have to) leave without repercussion to another
-            team” “One can imagine the downside of losing such expertise, but this is balanced by a company full of
-            generalist testers with a wide variety of product and technology familiarity”
-        </p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>This sounds like a good idea, but with our limited number
-            of projects, is this possible? We would need all the testers to consider changing it up. Maybe we could use
-            a bidding system? Maybe by identifying more as SETs and
-            TEs we can double up on some projects, and leave others to be independent on occasion? Maybe we review every
-            12 mo. Instead of 18 mo?
-        </p>
-
-
-    </section>
-</section>
-
-
-<section>
-    <section>
-        <h2>Chapter 2. The Software Engineer in Test</h2>
-
-        <p><span style="color: #27b48b;">Question: </span>Why have different engineering roles?
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"It becomes necessary to distinguish between a feature developer
-            and a test developer. For feature code, the
-            mindset is creating and considering users, use cases, and workflow. For test code, the mindset is about
-            breaking and writing code that will draw out cases that disrupt the user and his workflow"</p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p><span style="color: #27b48b;">Question: </span>What kind of tasks does the SET do?
-        </p>
-        <ul>
-            <li>Think of this role as a user developer. User-oriented tasks like use cases, user stories, user
-                scenarios, exploratory testing, and so on are the order of business here
-            </li>
-            <li>Write a unit test that imports the library, mocks out its nontrivial dependencies, and executes the most
-                interesting code paths with the most interesting inputs
-            </li>
-            <li>Run all required static analysis tools that check for style guide compliance and a suite of common
-                problems
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <ul>
-            <li>SETs are Software Engineers in Test. First and foremost, SETs are software engineers and the role is
-                touted as a 100 percent coding role in our recruiting literature and internal job promotion ladders
-            </li>
-
-            <li>It creates an equal footing between feature developers and test developers that is productive and lends
-                credibility to all types of testing, including manual and exploratory testing that occurs later in the
-                process and is performed by a different set of engineers
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <ul>
-            <li>A SET’s time is limited and spread thinly and it is a good idea to create a plan for automating testing
-                of the system as early as possible and to be practical about it. Designs that seek to automate
-                everything end-to-end all in one master test suite are generally a mistake
-            </li>
-
-            <li>By then, it’s often too late to make design changes in the product, so whatever you learn in testing at
-                that point is moot. Time that the SET could have invested in improving quality was instead spent on
-                maintaining a brittle end-to-end test suite.
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <li>The 'big G' codebase receives over 20 changes per minute and 50 percent of the files change every month!
-            Each
-            product is developed and released from “head” relying on automated tests verifying the product behavior.
-            Release frequency varies from multiple times per day to once every few weeks, depending on the product
-            team
-        </li>
-        </ul>
-
-    </section>
-
-</section>
-
-
-<section>
-    <section>
-        <h2>Chapter 3. The Test Engineer</h2>
-
-        <p>Most TEs get involved in some of this lower-level work where another set of eyes and more engineering
-            expertise is needed. It’s a matter of risk: TEs find and contribute to the riskiest areas of the software in
-            whatever manner makes the most sense for that particular product.</p>
-
-        <p>Some TEs spend much of their time programming, but with more of a focus on medium and large tests (such as
-            end-to-end user scenarios) rather than small tests.</p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <ul>General set of practices we prescribe for TEs:
-            <li>Test planning and risk analysis</li>
-            <li>Review specs, designs, code, and existing tests</li>
-            <li>Exploratory testing</li>
-            <li>User scenarios</li>
-            <li>Test case creation and execution</li>
-            <li>Crowd sourcing, Usage metrics, User feedback</li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <p> Tester Engineers deal with documents and artifacts of a far more temporal nature. In the early
-            phases of a project, testers write test plans; later, they create and execute test cases and create bug
-            reports. Still, later they write coverage reports and collect data about user satisfaction and software
-            quality.
-        </p>
-
-        <p> The TE is a facilitator of risk mitigation. A TE might decide to perform tests in house on some of
-            the riskier areas and might request regression tests to be added by SWEs and SETs. Other tools at the TE’s
-            disposal include manual and exploratory testing and the use of dogfood users, beta users, and crowd
-            sourcing.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p> User stories describe real-world or targeted user paths through the application under test. They describe
-            user motivation and perspective and ignore product implementation and design details.
-        </p>
-
-        <p>
-            They should use fresh user accounts when necessary and at 'big G', we often create any number of test user
-            accounts that represent the users we describe in our stories. Also, use “old” accounts full of state.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p>Perhaps due to the quality-focused engineering practices at 'big G', regression runs often show less than a 5
-            percent failure rate. Importantly, this work is also mind-numbing to our TEs, who we interview for being
-            highly curious, intelligent, and creative—we want to free them up to do the smarter testing that we hired
-            them for: intelligent exploratory testing, risk analysis, and thinking about the user.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p>A significant amount of SET and TE time is spent developing large, end-to-end regression test case
-            automation. These tests are important because they make sure the product works for the end user with all
-            parts working together. The vast majority of these are written in Java using Selenium to drive the browsers
-            and hold the test case logic.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-
-        <p style="font-style:italic; color: #4682b4;">“I really try to sink myself into the full user experience. The
-            way you look at a product totally changes once you see your own actual data in it.“
-        </p>
-
-        <p><span style="color: #27b48b;">My thoughts: </span>This is so true. I see many hypothetical test cases by
-            people at MQ, and if they would just use their own real
-            data, they would see the problems as real also.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <ul> TEs are experts at tools that help automate maual testing, such as -
-            <li> 'big G' bite-project Record Playback Framework</li>
-            <li>Selenium Webdriver</li>
-            <li>GTA - 'big G' Test Analytics. A risk based feature matrix tool.</li>
-
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <ol>Basic outline of the TEs testing workflow:
-            <li>Test planning with GTA tool</li>
-            <li>Test Coverage from tools</li>
-            <li>Bug evaluation</li>
-            <li>Exploratory testing</li>
-            <li>Bug filing</li>
-            <li>Triage and debugging</li>
-            <li>Deploying the new version</li>
-        </ol>
-        <p>And then return to step 1...</p>
-
-    </section>
-
-    <section>
-        <p style="font-style:italic; color: #4682b4;">“Watch out for maintenance and troubleshooting costs of your tests
-            down the road Observe the 70-20-10 rule: 70
-            percent small unit tests that verify the behavior of a single class or function, 20 percent medium tests
-            that validate the integration of one or more application modules, and 10 percent large tests (commonly
-            referred to as “system tests” and “end-to-end” tests) that operate on a high level and verify the
-            application as a whole is working"
-        </p>
-    </section>
-</section>
-
-<section>
-<section>
-    <h2>Chapter 4. The TEM - Test Engineering Manager</h2>
-
-    <p style="font-style:italic; color: #4682b4;">“Scarcity of resources bring clarity to execution and it creates a
-        strong sense of ownership by those on the project"</p>
-
-    <p style="font-style:italic; color: #4682b4;">“Because you can’t simply throw people at a
-        problem, the tool chain gets streamlined. Automation that serves no real purpose gets deprecated. Tests that
-        find no regressions aren’t written. Developers who demand certain types of activity from testers have to
-        participate in it. There are no make-work tasks. There is no busy work in an attempt to add value where you
-        are not needed."</p>
-
-    <p style="color: #b4b274;">-more-</p>
-
-</section>
-
-<section>
-
-    <p style="font-style:italic; color: #4682b4;">"Project mobility is a hallmark of being a 'big G' engineer. A
-        general rule of thumb is that a 'big G'r is free to change projects every 18 months, give or take a quarter."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"The general rule in the case where a TEM can choose to take a
-        project is simply to avoid toxic projects. Teams that are unwilling to be equal partners in quality should
-        be left on their own to do their own testing. . Teams unwilling to commit to writing small tests and getting
-        good unit-level coverage should be left to dig their graves in peace."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"It’s important to note that we are tasking a test team only with
-        <span style="color: #ffa65b;">impact</span>. We are specifically not asking the TEM and her team to ensure
-        that the product is <span style="color: #ffa65b;">high quality</span>."
-
-    <p style="color: #b4b274;">-more-</p>
-
-</section>
-
-<section>
-
-    <p style="font-style:italic; color: #4682b4;">"Make sure the person writing the feature is the person
-        responsible for ensuring the tests for that feature get executed. Tests that get ignored become a liability.
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"20 percent of the use cases account for 80 percent of the usage
-        (give or take!). Automate the 20 percent and don’t bother with the rest. Leave them for the manual test
-        passes."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-</section>
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Collaboration with development is crucial. If you don’t have it,
-        you are nothing more than damage control and that is not a good place to be."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"By writing automated tests, SETs and TEs often don’t realize they
-        signed up to maintain them. SETs need to always remember that testing is the job of the developer and they
-        should concentrate on getting testing into the workflow of the developer."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"We write tools to support this so that it is the developers who
-        maintain the tests as they maintain the code. SETs can then focus on making the tests run faster and produce
-        better diagnostics."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-
-
-</section>
-
-
-<section>
-
-    <p style="font-style:italic; color: #4682b4;">"After the team is assembled, I give them simple marching orders:
-        add value! Preferably, add value in a repeatable way. From dev to product management, testing must be seen
-        as an enabler. Anything less and you are in the way."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"Everything we did had to have a purpose. We questioned
-        everything. Every test case, every piece of automation, and much of what we were doing didn’t stand this
-        kind of scrutiny. If the automation didn’t provide clear value, we abandoned it. Everything was value-driven
-        and the organization was there."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-</section>
-<section>
-
-    <p style="font-style:italic; color: #4682b4;">"Hung: I’ve learned to be skeptical of automation. Testers can get
-        so passionate about some grand vision of automation for a product and spend months creating it only to have
-        the product or platform change and negate everything they did. There is no greater waste of resources than
-        writing automation that doesn’t stand the test of time. In my mind, it needs to be written quickly, executed
-        quickly, and solve a very specific problem. If I don’t understand the purpose of an automated test
-        immediately, then it is too complicated. Make it simple, contain its scope and above all, make sure it adds
-        value."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-</section>
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Hung: None of my testers specialize. Specifically, everyone does
-        manual testing and I mean everyone. Exploratory testing is the best way of digging into the product and
-        learning it well. The last thing I want is an SET to be a framework writer. I want them to be more involved
-        with the product and know how to use it. Every tester must empathize with the user. They must be expert
-        users and know the ins and outs of the whole product."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"We have daily coordination meetings to identify things that are
-        important to test and ensure someone is covering them. Manual testing, to me, is about focus and
-        coordination."
-
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-
-</section>
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Insisting on unit tests won’t make those unit tests valuable.
-        Nothing a spec writer or a unit test can do (besides finding an obvious regression bug) will help us find a
-        problem that a real user will encounter. This is my world, a tester’s world."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"Joel: I try to be practical about releases. I have software
-        to ship and there are some things that have to give to
-        make that happen. There are always tradeoffs. We may be an agile team, but we still implement a last-mile
-        validation."</p>
-
-    <p style="font-style:italic; color: #4682b4;">"Joel: Until I have all this totally figured out, I am going to
-        favor a hybrid approach, a mix of developer testing, scripted testing, exploratory testing, risk-based
-        testing, and functional automation."</p>
-
-    <p style="color: #b4b274;">-more-</p>
-</section>
-
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Joel: Test is the last frontier of engineering. We’ve solved a
-        lot of the problems of how to develop software effectively, but we’ve still have a green field of
-        opportunity to attack the really meaty problems of testing a product, from how to organize all the technical
-        work that must get done to how we automate effectively, and responsively, and with agility without being too
-        reactive."
-    </p>
-
-    <p style="font-style:italic; color: #4682b4;">"At times, we would realize something wasn’t possible at the
-        component level and work with them to solve it at the unit level. This collaboration transformed the dynamic
-        in the team so that the entire project team (dev + test) owned quality at the component level with test
-        engineering focusing its time on improving process, framework, tooling, and integration testing."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-
-</section>
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Once you’ve identified what’s critical for the specific product
-        you’re testing, then focus the majority of your energy on validating that the core capabilities of the
-        system satisfy those attributes. Worry about the easy stuff (UI tweaks and bells and whistles) only after
-        the important stuff is right."</p>
-
-    <p style="font-style:italic; color: #4682b4;">"The key is still to automate that process as much as possible.
-        Have a machine do 90 percent of the work and apply human intelligence only to the last 10 percent (“the last
-        mile” we call it) of the validation cycle."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-</section>
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Automaton can do things like capture all the screens from
-        devices, allowing us to do rapid side-by-side human inspection after our comparison algorithm filters out
-        variance in display. Human intelligence is too valuable to waste on something a computer can do and should
-        be applied where intelligence and human judgment is best; a repetitive task is definitely not one of those
-        areas."
-    </p>
-
-    <p><span style="color: #27b48b;">My thoughts:</span> Map tile updates anyone?
-
-    <p style="color: #b4b274;">-more-</p>
-
-</section>
-<section>
-    <p style="font-style:italic; color: #4682b4;">"Our tools and approaches generally don’t need a lot of selling.
-        We hold what we call Engineering Productivity Reviews weekly and demo our tools."
-    </p>
-
-
-    <p style="font-style:italic; color: #4682b4;">"We also have supporting infrastructure that provides smart ways to
-        provide test prioritization to detect
-        relevant tests that need to be run based on the specific code changes. This provides targeted test coverage,
-        better confidence in code quality, and faster feedback, saving 'big G' a huge amount of engineering resources."
-    </p>
-
-    <p style="color: #b4b274;">-more-</p>
-</section>
-
-
-<section>
-    <p style="font-style:italic; color: #4682b4;">"A massive hiring surge has allowed me to build bigger teams and
-        co-locate people doing
-        similar work even if they were working on different products. Instead of lone testers embedded with their
-        development teams, we had groups of testers sitting together and feeding on each others’ ideas. It worked
-        wonders for productivity and morale."
-    </p>
-
-
-    <p><span style="color: #27b48b;">Question:</span> What is it that you like most about the organizational structure
-        at 'big G'?"</p>
-
-    <p style="font-style:italic; color: #4682b4;">"I actually explain this to candidates when I need to sell them on
-        'big G': Testers report to testers and testers determine their own fate. These are the two things I like best
-        about 'big G'. Testers aren’t beholden to anyone. Test has our own hiring committee, our own review committee,
-        our own promotion committee. And if you want another reason, it would be scarcity of the test role. No dev team
-        is granted testing head count without having to earn it by putting their own skin in the quality game."
-
-    </p>
-</section>
-
-</section>
-
-<section>
-    <section>
-        <h2>Chapter 5. Improving How 'big G' Tests Software</h2>
-
-        <p><span style="color: #27b48b;">Question:</span>"How is testing evolving, or devolving, at 'big G' and what is
-            happening to address them?
-
-        <p style="font-style:italic; color: #4682b4;">"What has occurred is a decentralization of testing where the
-            Engineering Productivity organization has been broken up and its pieces absorbed by the product teams. This,
-            we believe, is a natural progression that occurs when a certain level of test maturity is achieved. 'big G'
-            is simply no longer best served by keeping development and testing separate."</p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-
-
-        <p style="font-style:italic; color: #4682b4;">"Testing is often seen as a surrogate for quality and if you ask a
-            developer what he is doing about quality, "testing" is often the answer. But testing is not about Quality.
-            Quality has to be built in, not bolted on, and as such, quality is a developer task. Period. This brings us
-            to:</p>
-
-        <p><span style="color: #c70000;">Fatal flaw number one:</span></p>
-
-        <p><span style="color: #ffa65b;">Testers have become a crutch for developers.</span>
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"When testing becomes a service that enables developers to not
-            think about it, then they will not think about
-            it. Testing should involve some pain. It should involve some concern on the part of developers. To the
-            extent that we have made testing too easy, we have made developers too lazy. The fact that testing is a
-            separate organization at 'big G' exacerbates this problem. Quality is not only someone else’s problem; it is
-            another organization’s problem."
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-        <p><span style="color: #c70000;">Fatal flaw number two:</span></p>
-
-        <p><span style="color: #ffa65b;">Testers identify with their role and not their product.</span>
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"Whenever the focus is not on the product, the product suffers.
-            After
-            all, the ultimate purpose of software development is to build a product, not code a product, not test a
-            product,
-            not to document a product. Every role is in service of the product."
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-    </section>
-
-    <section>
-        <p><span style="color: #c70000;">Fatal flaw number three:</span></p>
-
-        <p><span style="color: #ffa65b;">Testers often worship the artifacts over the software itself.</span>
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"The value of testing is in the activity, not the artifacts. The
-            product would be better served if the activities involved in testing were aimed exclusively at the source
-            code. Tester must put the product first. "
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-
-    <section>
-        <p><span style="color: #c70000;">Fatal flaw number four:</span></p>
-
-        <p><span style="color: #ffa65b;">How often are products released only for users to find problems that escaped the testing process?"</span>
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"The problem with testing is we are acting like users; we need
-            dogfooders who are actual users! Dogfood users, trusted users, crowd sourced users, and early adopters are
-            all in a better position to find bugs than the test engineers. In fact the less testing a TE does and the
-            more enabling of others, the better."
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-
-    <section>
-
-        <p style="font-style:italic; color: #4682b4;">These two roles are actually diverging at 'big G'. The SET role is
-            becoming more and more developer-like and the TE role is going in the exact opposite direction and becoming
-            more user-like."
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"Every user facing feature is managed by PMs and built by SWEs.
-            Code for these features is tracked, managed, and maintained by a well defined workflow. However, the test
-            code is traditionally managed and built by the SETs. Why? This is a relic of the history of how the roles
-            evolved. But the evolution has peaked and it's time to treat test code as a first-class citizen: let it be
-            managed by PMs and built by engineers.
-        </p>
-
-        <p style="color: #b4b274;">-more-</p>
-
-
-    </section>
-
-    <section>
-        <ul> The future of SETs and SEs:
-            <li>In all likely hood, the rolls performed by SETs and SWEs can be done by the same person. The challenge
-                is having a mature enough organization. Ownership of testing features should fall to new team members,
-                particularly the more junior ones.
-            </li>
-            <li>The truth is that much of the test case creation, execution, and regression testing TEs traditionally
-                perform is available in more complete and cost-effective formats. Test engineering, we believe, will
-                morph into a test design role where a small number of test designers quickly map out the testing
-                surface, risk heat map and tours for application.
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-
-    <section>
-
-        <p>The end of testing as we know and love it is a hard message to hear.
-            But there is no arguing that the software development problem has been fundamentally altered by agile
-            development, continuous builds, early user involvement, crowd-based testing, and online software delivery.
-            Sticking to decades-old testing dogma is a recipe for irrelevance.
-        </p>
-    </section>
-
-</section>
-
-
-</section>
-
-
-<section>
-    <h2 style="font-weight: bold; color: steelblue;">Part 3 - Moving forward:</h2>
-</section>
-
-<section>
-    <section>
-        <h2>What DEV needs to hear in order to make this transition:</h2>
-        <ul>
-            <li>Crawl, Walk, Run</li>
-            <li>Focusing on the development environment that a newbie developer would have to work with on your team is
-                really critical. Make it dead easy to get started to check out code, edit code, test code, run code,
-                debug code, and then deploy code.
-            </li>
-            <li>Take away the pain from each of these steps and your developers will be productive and you will produce
-                high-quality software on time.
-            </li>
-            <li>???</li>
-        </ul>
-    </section>
-</section>
-
-<section>
-    <section>
-        <h2>What QA needs to hear in order to make this transition:</h2>
-        <ul>
-            <li>It is okay for a team to own quality by themselves</li>
-            <li>Because: We will never break the 'safety net' mentality without that</li>
-            <li>Management is willing to prioritize 'Faster to Market' over other concerns</li>
-            <li>Because: We can get the team to own quality, thus motivating them to write their own automated
-                tests,
-                knowing that occasionally hey will release a bug, but they can find and fix it in a day or two
-            </li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <li>Testers (SETs and TEs) become a scarce, valuable, and sought after resource. There are assigned as a
-            on-loan
-            status, not a entitlement to the team.
-        </li>
-        <li>Quality tracking of a teams release health (cost to perform a release, frequency of releases,
-            Occurrences of
-            Severity 1 bugs, frequency of production rollbacks) become the front line indicator of how well a team
-            is
-            performing
-        </li>
-        <li>Implement a 'Test Certified Level' program to measure/ incentivize teams to improve their quality</li>
-        <li>It's okay to redefine Quality from Ownership(by a tester) to Process. This one is hard for me.</li>
-        <li>It's okay to replace manual test cases with measuring/training for quality</li>
-        <li>It's okay for the 'requirements' of 'What should it do?' to be documented in only a test</li>
-        </ul>
-        <p style="color: #b4b274;">-more-</p>
-    </section>
-    <section>
-        <p style="font-style:italic; color: #4682b4;">"It’s important to note that we are tasking a test team only with
-            <span style="color: #ffa65b;">impact</span>. We are specifically not asking the TEM and her team to ensure
-            that the product is <span style="color: #ffa65b;">high quality</span>."
-        </p>
-
-        <p style="font-style:italic; color: #4682b4;">"We are specifically not asking the TEM and her team to ensure
-            that the product is high quality. We are not
-            asking the TEM and her team to make the product ship on time. We are not going to blame testing if the
-            product is unsuccessful or unloved by users."
-
-        </p>
-    </section>
-</section>
-
-<section>
-    <section>
-
-        <h2>Why did I title this presentation "How Google test[ed] software?</h2>
-    </section>
-    <section>
-        <p>Because the Author, and Architect has left Google (for Microsoft actually!)</p>
-
-        <p> In his blog, James Whittaker
-            mentions that 'big G' is not the place it once was.
-            The days of Engineers implementing great ideas has been replaced with one goal; beat Facebook with Google+.
-            This, in his opinion is way to much of a corporate mandate, and has
-            taken all the 'fun' out of how things used to be.
-        </p>
-
-        <p>Does this mean that this process does not live on?</p>
-    </section>
-
-</section>
-
-
-<section>
-    <h2>Further Learning:</h2>
-
-    <h3>AOL Safari books</h3>
-    <ul>
-        <li style="font-size: 25px;">Login to: http://safari.aol.com</li>
-        <li style="font-size: 25px;">Then: http://techbus.safaribooksonline.com/9780132851572</li>
-    </ul>
-    <h4>Google Resources:</h4>
-    <ul>
-        <li style="font-size: 25px;">http://googletesting.blogspot.com/</li>
-        <li style="font-size: 25px;">https://code.google.com/p/bite-project/</li>
-    </ul>
-    <h4>Why James Whittaker left Google</h4>
-    <ul>
-        <li style="font-size: 25px;">
-            http://blogs.msdn.com/b/jw_on_tech/archive/2012/03/13/why-i-left-google.aspx
-        </li>
-    </ul>
-
-
-</section>
-
-<section>
-    <h3>Thanks to:</h3>
-    <ul>
-        <li>reveal.js - this awesome presentation software</li>
-        <li>James Whittaker (& team) at 'big G' for challenging the status quo</li>
-        <li>Our Company - for always wanting to improve</li>
-    </ul>
-</section>
--->
 </div>
 
 </div>
