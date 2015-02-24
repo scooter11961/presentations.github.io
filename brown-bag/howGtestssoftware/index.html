@@ -16,7 +16,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="css/reveal.min.css">
-    <link rel="stylesheet" href="css/theme/raincloud.css" id="theme">
+    <!-- <link rel="stylesheet" href="css/theme/raincloud.css" id="theme"> -->
+    <link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
 
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -116,7 +118,7 @@
 <div class="slides">
 
 <section>
-    <h1 style="font-size: 90px;">How 'G' test[ed] software </h1>
+    <h1 style="font-size: 80px;">How 'G' test[ed] software </h1>
     <h4 style="font-weight: bold; color: steelblue;">Testing techniques from a book report</h4>
     <img src="img\HowGTestsSoftwareBookCover2.png" height="475  " width="425">
 
@@ -521,26 +523,26 @@
     <section>
         <div style="font-size: 14px;" class="newspaper">
 
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 1</span>
+            <ul><span style="font-size: 20px; color: #680909;"> Level 1</span>
                 <li>Setup test coverage</li>
                 <li>Setup continuous build</li>
                 <li>Classify your tests as Small, Medium, and Large</li>
                 <li>Identify nondeterministic tests</li>
                 <li>Create a smoke test suite</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 2</span>
+            <ul><span style="font-size: 20px; color: #680909;"> Level 2</span>
                 <li>No releases with red tests</li>
                 <li>Require a smoke test suite to pass before a submit</li>
                 <li>Incremental coverage by all tests >= 50%</li>
                 <li>Incremental coverage by all tests >= 10%</li>
                 <li>At least one feature tested by an integration test</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 3</span>
+            <ul><span style="font-size: 20px; color: #680909;"> Level 3</span>
                 <li>Require tests for all non-trivial changes</li>
                 <li>Incremental coverage by small tests >= 50%</li>
                 <li>New significant features are tested by integration tests</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 4</span>
+            <ul><span style="font-size: 20px; color: #680909;"> Level 4</span>
                 <li>Automate smoke tests before submitting new code</li>
                 <li>Smoke tests should take less than 30 minutes</li>
                 <li>No nondeterministic tests</li>
@@ -548,7 +550,7 @@
                 <li>Test Coverage from small tests >= 25%</li>
                 <li>All significant features are tested by integration tests</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 5</span>
+            <ul><span style="font-size: 20px; color: #680909;"> Level 5</span>
                 <li>Add a test for each nontrivial bug fix</li>
                 <li>Actively use available analysis tools</li>
                 <li>Total test coverage should be at least 60%</li>
