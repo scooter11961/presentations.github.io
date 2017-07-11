@@ -522,7 +522,7 @@
 
     <section>
         <div style="font-size: 14px;" class="newspaper">
-
+        	<div id="column1" style="margin:0; ">
             <ul><span style="font-size: 20px; color: #680909;"> Level 1</span>
                 <li>Setup test coverage</li>
                 <li>Setup continuous build</li>
@@ -530,6 +530,8 @@
                 <li>Identify nondeterministic tests</li>
                 <li>Create a smoke test suite</li>
             </ul>
+            </div>
+            <div id="column2" style="margin:0; ">
             <ul><span style="font-size: 20px; color: #680909;"> Level 2</span>
                 <li>No releases with red tests</li>
                 <li>Require a smoke test suite to pass before a submit</li>
@@ -537,11 +539,15 @@
                 <li>Incremental coverage by all tests >= 10%</li>
                 <li>At least one feature tested by an integration test</li>
             </ul>
+            </div>
+            <div id="column3" style="margin:0; ">
             <ul><span style="font-size: 20px; color: #680909;"> Level 3</span>
                 <li>Require tests for all non-trivial changes</li>
                 <li>Incremental coverage by small tests >= 50%</li>
                 <li>New significant features are tested by integration tests</li>
             </ul>
+            </div>
+            <div id="column4" style="margin:0; ">
             <ul><span style="font-size: 20px; color: #680909;"> Level 4</span>
                 <li>Automate smoke tests before submitting new code</li>
                 <li>Smoke tests should take less than 30 minutes</li>
@@ -550,12 +556,15 @@
                 <li>Test Coverage from small tests >= 25%</li>
                 <li>All significant features are tested by integration tests</li>
             </ul>
+            </div>
+            <div id="column5" style="margin:0; ">
             <ul><span style="font-size: 20px; color: #680909;"> Level 5</span>
-                <li>Add a test for each nontrivial bug fix</li>
+                <li><p>Add a test for each nontrivial bug fix</p></li>
                 <li>Actively use available analysis tools</li>
                 <li>Total test coverage should be at least 60%</li>
                 <li>Test coverage from small tests alone should be at 40%</li>
             </ul>
+            </div>
         </div>
     </section>
 
