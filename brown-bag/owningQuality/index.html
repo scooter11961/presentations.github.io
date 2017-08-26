@@ -131,12 +131,12 @@
 </section>
 
 <section>
-    <h2 style="font-weight: bold; color: steelblue;">What is this?</h2>
+    <h2 style="font-weight: bold; color: steelblue;">Recognize this?</h2>
     <img class="fragment roll-in" src="img\wall_img_1855.jpg" height="475" width="825">
 </section>
 
 <section>
-    <h2 style="font-weight: bold; color: steelblue;">Some software development history...</h2>
+    <h2 style="font-weight: bold; color: steelblue;">What are some software development approaches?</h2>
 
     <h3 class="fragment roll-in" style="position:relative;top:50px; color: #27b48b;">Waterfall-ish RUP style</h3>
     <ul class="fragment roll-in">
@@ -216,7 +216,8 @@
 </section>
 
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">Small things can add up to 'Continuous Quality'</h3>
+    <h3 style="font-weight: bold; color: steelblue;">Small things can add up to </h3>
+    <h3 style="font-weight: bold; color: steelblue;">'Continuous Quality'</h3>
 
     <ul>
         <li>Monitoring tools, like Exceptional Notifier, or New Relic</li>
@@ -262,7 +263,8 @@
 </section>
 
 <section>
-    <h3 style="font-weight: bold; color: steelblue;">What about integration with other services?</h3>
+    <h3 style="font-weight: bold; color: steelblue;">What about integration with </h3>
+    <h3 style="font-weight: bold; color: steelblue;">other services?</h3>
     <ul>
         <li>What if testing suites could be defined to run and check impact of 3rd party (internal and external APIs)?
         </li>
@@ -324,13 +326,22 @@
             <li> Contribute to building, reviewing, and extending unit tests</li>
             <li> May build mocks and fakes for unit tests to interact with</li>
             <li> May build custom tools when needed (java/ruby test code?)</li>
-            <li> May contribute to functional code occasionally</li>
-            <li> Perform exploratory testing</li>
-            <li>Test Certified Mentors</li>
-            <li> SETs have a skillset on par with the SWEs</li>
         </ul>
         <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
     </section>
+
+    <section>
+        <h3><span style="color: #27b48b;">SET </span> -continued-</h3>
+        <ul>
+          <li> May contribute to functional code occasionally</li>
+          <li> Perform exploratory testing</li>
+          <li>Test Certified Mentors</li>
+          <li> SETs have a skillset on par with the SWEs</li>
+        </ul>
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+    </section>
+
+
     <section>
         <h3><span style="color: #27b48b;">TE </span> (Test Engineers)</h3>
         <ul>
@@ -410,6 +421,17 @@
     </section>
 
     <section>
+        <h3 style="font-weight: bold; color: steelblue;">Continuous Delivery maturity model</h3>
+
+        <img  src="img\swt-maturity-model.png" height="475  " width="825">
+
+        <p style="font-style:italic; color: #8fbc8f;">“How we evaluate ourselves, and improve."</p>
+
+        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
+    </section>
+
+
+    <section>
         <ul>
             <li>Implement a 'Test Certified' ladder program.
                 <img class="fragment roll-in" style=position:relative;left:220px; src="img\testcertifiedbadges.png"
@@ -426,27 +448,33 @@
 
     <section>
         <div style="font-size: 14px;" class="newspaper">
-
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 1</span>
+        	<div id="column1" style="margin:0; ">
+            <ul><span style="font-size: 20px; color: #680909;"> Level 1</span>
                 <li>Setup test coverage</li>
                 <li>Setup continuous build</li>
                 <li>Classify your tests as Small, Medium, and Large</li>
                 <li>Identify nondeterministic tests</li>
                 <li>Create a smoke test suite</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 2</span>
+            </div>
+            <div id="column2" style="margin:0; ">
+            <ul><span style="font-size: 20px; color: #680909;"> Level 2</span>
                 <li>No releases with red tests</li>
                 <li>Require a smoke test suite to pass before a submit</li>
                 <li>Incremental coverage by all tests >= 50%</li>
                 <li>Incremental coverage by all tests >= 10%</li>
                 <li>At least one feature tested by an integration test</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 3</span>
+            </div>
+            <div id="column3" style="margin:0; ">
+            <ul><span style="font-size: 20px; color: #680909;"> Level 3</span>
                 <li>Require tests for all non-trivial changes</li>
                 <li>Incremental coverage by small tests >= 50%</li>
                 <li>New significant features are tested by integration tests</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 4</span>
+            </div>
+            <div id="column4" style="margin:0; ">
+            <ul><span style="font-size: 20px; color: #680909;"> Level 4</span>
                 <li>Automate smoke tests before submitting new code</li>
                 <li>Smoke tests should take less than 30 minutes</li>
                 <li>No nondeterministic tests</li>
@@ -454,16 +482,17 @@
                 <li>Test Coverage from small tests >= 25%</li>
                 <li>All significant features are tested by integration tests</li>
             </ul>
-            <ul><span style="font-size: 20px; color: #77ffb4;"> Level 5</span>
-                <li>Add a test for each nontrivial bug fix</li>
+            </div>
+            <div id="column5" style="margin:0; ">
+            <ul><span style="font-size: 20px; color: #680909;"> Level 5</span>
+                <li><p>Add a test for each nontrivial bug fix</p></li>
                 <li>Actively use available analysis tools</li>
                 <li>Total test coverage should be at least 60%</li>
                 <li>Test coverage from small tests alone should be at 40%</li>
             </ul>
+            </div>
         </div>
-        <p class="fragment roll-in" style="color: #b4b274;">-more-</p>
     </section>
-
 
     <section>
         <p>In a culture where testing resources were scarce, signing up for this program got a product team far more
@@ -498,7 +527,7 @@
 
 <section>
 
-    <h3 style="font-weight: bold; color: steelblue;">There is no place for walls in software development anymore!</h3>
+    <h3 style="font-weight: bold; color: steelblue;">Team ownership of quality!</h3>
     <img class="fragment roll-in" src="img\stick-figures-md.png" height="400" width="500">
 
 </section>
