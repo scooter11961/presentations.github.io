@@ -31,7 +31,7 @@ This particular role for me is exciting, humbling, and gives me a place to bring
 * We may at times have substantive disagreements
 * When it comes to making adjustments to personalities, I strongly believe that the person in the more senior position is getting paid, partially, to adjust to the personality styles of the people on their team
 * Relationships are healthy when there is politeness, and an assumption of "positive intent" when we interpret the words of someone else
-* By the way, Myers-Briggs profiles say I'm a ENTJ (External, Sensing, blah ,blah)
+* By the way, Myers-Briggs profiles say I'm a DEFENDER (ISFJ-A)
 
 ### My Job
 At a minimum:
