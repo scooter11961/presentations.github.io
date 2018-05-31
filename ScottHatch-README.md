@@ -52,7 +52,7 @@ Three dimensions are required for people to continue to give valuable feedback:
 Let me know if I don't do well on any of these three dimensions
 
 ### Want to Talk? Let's Talk
-* I’ve got a few things to do around here
+* I've got a few things to do around here
 * Very few of them are more important than spending time talking with you if you want to talk with me
 * Feel entirely free to try to catch me ad-hoc via Slack or in person, or put time on my calendar to talk whenever you want
 * You may not find a slot on my calendar in any given day
@@ -63,8 +63,8 @@ Let me know if I don't do well on any of these three dimensions
 
 * 1:1s are for you first, me second
 * 1:1s are not for status updates unless you want to update status
-* I’d like to try 30 minutes each week
-* I’d like to keep a shared journal for notes, follow up items, etc.
+* I'd like to try 30 minutes each week
+* I'd like to keep a shared journal for notes, follow up items, etc.
 * I'll bring an item or two to talk about, but the agenda is what is on your mind first
 
 Your daily work tasks will come largely from the feature Squad you are on - so our chats will be less about status of your work, and more about how the work culture is going, how I can be a sounding board for your ideas, and if there's anything I can do to guide you, coach you, or do anything else that will help you grow as a software engineer
