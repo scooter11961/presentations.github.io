@@ -51,3 +51,53 @@ font-size: 10px;
 font-style: italic;
     font-size: 14px;
 }
+
+.photos {
+  margin: auto;
+  display: block;
+  width: 99;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.wide_polaroid {
+    width: 284px;
+    height: 100%;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div.rotate_right {
+    float: left;
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+}
+
+div.rotate_left {
+    float: left;
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+}
+
+div.v_flip {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+div.rotate_90 {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+}

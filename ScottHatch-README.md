@@ -81,7 +81,7 @@ I have opinions, lots of them, but trust in you and your ability to achieve will
 ### Our relationship is an alliance
 I'm planning on our relationship being a mutually beneficial deal for both of us. The goal is to add value to each other, and we will help each other be successful. I will help you grow in your career and help you become more valuable to Ibotta while you make Ibotta successful. Our alliance may take on several forms, and we should be clear with each other on how we help each other's success
 
-*For more on an alliance as a manager/employee relationship, check out http://www.theallianceframework.com/ - Reid Hoffman from linkedin created the framework, and I've found a lot of value in using this as a framework to describe how I work with people in my organization*
+For more on the **Alliance Framework** and an alliance as a manager/employee relationship, check out http://www.theallianceframework.com/ - Reid Hoffman from linkedin created the framework, and I've found a lot of value in using this as a framework to describe how I work with people in my organization*
 
 ### Balance independence and coaching
 Your success relies on your independence and autonomy. My role as a leader is to provide a framework you can work in (e.g. help define clarity for your role and mission), and then get out of your way. Ibotta employees are capable of working with others and figuring things out - I'm here for guidance, coaching, and to help otherwise as needed. If you have questions - or need advice - or just someone to bounce an idea off of, I'm always available.
@@ -91,9 +91,11 @@ I will also step in and apply additional guidance from time to time. It doesn't 
 *The One Minute Manager https://en.wikipedia.org/wiki/The_One_Minute_Manager also covers a lot of this philosophy*
 
 ### Improvement is a Priority
-I use two different frameworks to think about employee growth. The first is from Max Landsberg/Michael Lopp's fantastic book, **Managing Humans** (http://managinghumans.com/). It's a quadrant of skill and will. You may spend time in each of the parts of the quadrant from time to time, but my role as a leader / manager is to guide you towards high skill, high will work as much as possible. This is where you provide the most value to Ibotta, and where your strengths and skills grow the fastest
+I use two different frameworks to think about employee growth. The first is from Max Landsberg/Michael Lopp's fantastic book, Managing Humans (http://managinghumans.com/). It's a **Quadrant of skill and will**. You may spend time in each of the parts of the quadrant from time to time, but my role as a leader / manager is to guide you towards high skill, high will work as much as possible. This is where you provide the most value to Ibotta, and where your strengths and skills grow the fastest
 
 ![skill and will](http://www.leadershipissues.com/wp-content/uploads/2016/02/will.gif "skill and will")
+
+_Quadrant of skill and will_
 
 The other model I use is highly related. Its called the **ACM framework (Ambitious, Comfortable, Mundane)**. The idea is that if you look at the work you do over a week / sprint, some of that work is new, challenging, or ambitious, a big chunk of work is stuff that you're just really good at (comfortable work), and you may end up with some work that you're overqualified for, or is boring, but that just needs to get done (mundane).
 
