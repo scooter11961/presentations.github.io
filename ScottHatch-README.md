@@ -37,7 +37,7 @@ At a minimum:
 ### On Feedback
 I love feedback. Feedback is critical to my success here, both to you, and from you
 
-There are three dimensions are required for people to continue to give valuable feedback:
+There are three dimensions required for people to continue to give valuable feedback:
 * Safety should be high (no fear of retaliation)
 * Effort should be low (no rebuttals)
 * Benefit should be high (positive results)
@@ -107,3 +107,5 @@ I bias toward transparency and candor.  You can ask anything.  Most of the time,
 
 ### Let's have fun, and get some work done!
 I hope this README gives you some answers about me. Maybe questions you hadn't even thought of yet, but could be useful to know anyhow. I look forward to getting to know you as well. Thanks for reading
+
+HE>I
