@@ -75,6 +75,8 @@ I'm likely to be reserved in expressing opinions about what/how you should be do
 
 I have opinions, lots of them, but trust in you and your ability to achieve will be high. Accountability to commitments and delivery is how I observe your contributions
 
+I want to empower people, I've come to value a "Do and inform” rather than “ask and wait” approach to most things 
+
 ### Our relationship is an alliance
 I'm planning on our relationship being a mutually beneficial deal for both of us, and our company. The goal is to add value to each other, and we will help each other be successful. I will help you grow in your career and help you become more valuable to Ibotta while you make Ibotta successful. Our alliance may take on several forms, and we should be clear with each other on how we help each other's success
 
