@@ -110,4 +110,4 @@ I bias toward transparency and candor.  You can ask anything.  Most of the time,
 ### Let's have fun, and get some work done!
 I hope this README gives you some answers about me. Maybe questions you hadn't even thought of yet, but could be useful to know anyhow. I look forward to getting to know you as well. Thanks for reading
 
-HE>I
+http://scottahatch.org
